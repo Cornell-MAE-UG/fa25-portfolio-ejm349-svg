@@ -19,8 +19,8 @@ Considering the Free Body Diagram for the rigid bar, there are reaction forces a
 To optimize, I considered the product of the max height reached by the point E (where the weight attaches) and the max lifting moment produced about Point B from the actuator. I did this by varying X between 150 minus the minimum length of the actuator (if the design were in a straight line) and 150cm (the length of bar BCE). The code is shown below as well as the mathematical derivations of how the max height and moment about B were determined.
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/moment_max.png' | relative_url }}" style="width: 275px; display: inline-block; margin: 0 20px;" />
-  <img src="{{ '/assets/images/y_max.png' | relative_url }}" style="width: 275px; display: inline-block; margin: 0 20px;" />
+  <img src="{{ '/assets/images/moment_max.png' | relative_url }}" style="width: 250px; display: inline-block; margin: 0 15px;" />
+  <img src="{{ '/assets/images/y_max.png' | relative_url }}" style="width: 250px; display: inline-block; margin: 0 15px;" />
 </div>
 
 
@@ -74,7 +74,7 @@ To optimize, I considered the product of the max height reached by the point E (
 ## Results
 Following the optimization using the code above, interesting results were found. The general principle was for every X value from the minimum X value needed considering the minimum length of the actuator to the max value of X (Pin C at E) the moment about B caused by the actuator and the maximum height were found. These values were then multiplied together, and the X value that had the largest product (optimization factor) was selected to be the ideal value of X. The graph below displays the results, and it was found having Pin C at point E (X=150cm) was the most ideal value. 
 
-![Shaded rendering of earlier version]({{ "/assets/images/optimization_results.png" | relative_url }}){: .inline-image-r style="width: 500px"}
+![Shaded rendering of earlier version]({{ "/assets/images/optimization_results.png" | relative_url }}){: .inline-image-r style="width: 600px"}
 
 This makes sense for a few reasons. Firstly, the magnitude of the moment caused by the actuator force was up to 5,000 KN(cm) while the maximum height value only reached rouhgly 45cm (Note: less than the 50cm requirement). It then makes sense that the ideal X value is simply the ideal value for maximizing the moment (longest moment arm-- X=150cm). Upon further investigation, the maximum height only changed by roughly 0.5 cm between the minimum and maximum X value. It then makes sense to maximize the moment, and therefore lifting force, due to such a small change in max height. A relatively small change in X compared to the length of bar BCE causes theta max to not change significantly.
 
