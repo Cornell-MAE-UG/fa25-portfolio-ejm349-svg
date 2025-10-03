@@ -19,8 +19,8 @@ Considering the Free Body Diagram for the rigid bar, there are reaction forces a
 To optimize, I considered the product of the max height reached by the point E (where the weight attaches) and the max lifting moment produced about Point B from the actuator. I did this by varying X between 150 minus the minimum length of the actuator (if the design were in a straight line) and 150cm (the length of bar BCE). The code is shown below as well as the mathematical derivations of how the max height and moment about B were determined.
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/moment_max.png' | relative_url }}" style="width: 275px; display: inline-block; margin: 0 15px;" />
-  <img src="{{ '/assets/images/y_max.png' | relative_url }}" style="width: 275px; display: inline-block; margin: 0 15px;" />
+  <img src="{{ '/assets/images/moment_max.png' | relative_url }}" style="width: 275px; display: inline-block; margin: 0 20px;" />
+  <img src="{{ '/assets/images/y_max.png' | relative_url }}" style="width: 275px; display: inline-block; margin: 0 20px;" />
 </div>
 
 
