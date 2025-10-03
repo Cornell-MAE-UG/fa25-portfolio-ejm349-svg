@@ -3,7 +3,7 @@ layout: project
 title: Linear Actuator Max Load and Height Design
 description: Design Challenge with Constraints
 technologies: Python Programming Language
-image: /assets/images/design_cover.png
+image: ![Design cover]({{ "/assets/images/design_cover.png" | relative_url }}){: style="width: 300px"}
 ---
 
 For ENGRD 2020 (Statics and Mechanics of Solids) we were tasked with creating a mechanism that could lift as large a weight as possible to the largest possible height. Our constraints consisted of: 150cm by 50cm workspace, three pins, a rigid bar of fixed length (our choice) and a linear actuator from a selected catalog. 
@@ -18,10 +18,9 @@ Considering the Free Body Diagram for the rigid bar, there are reaction forces a
 
 To optimize, I considered the product of the max height reached by the point E (where the weight attaches) and the max lifting moment produced about Point B from the actuator. I did this by varying X between 150 minus the minimum length of the actuator (if the design were in a straight line) and 150cm (the length of bar BCE). The code is shown below as well as the mathematical derivations of how the max height and moment about B were determined.
 
-![Shaded rendering of earlier version]({{ "/assets/images/moment_max.png" | relative_url }}){: .inline-image-r style="width: 200px"}
-![Shaded rendering of earlier version]({{ "/assets/images/y_max.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/moment_max.png" | relative_url }}){: style="width: 300px"}
 
-
+![Shaded rendering of earlier version]({{ "/assets/images/y_max.png" | relative_url }}){: style="width: 300px"}
 
 
 ```python
