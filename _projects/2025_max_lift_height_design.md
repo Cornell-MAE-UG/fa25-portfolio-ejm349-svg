@@ -18,63 +18,52 @@ Considering the Free Body Diagram for the rigid bar, there are reaction forces a
 
 To optimize, I considered the product of the max height reached by the point E (where the weight attaches) and the max lifting moment produced about Point B from the actuator. I did this by varying X between 150 minus the minimum length of the actuator (if the design were in a straight line) and 150cm (the length of bar BCE). The code is shown below as well as the mathematical derivations of how the max height and moment about B were determined.
 
-![Shaded rendering of earlier version]({{ "/assets/images/moment_max.png" | relative_url }}){: style="width: 300px"}
-
-![Shaded rendering of earlier version]({{ "/assets/images/y_max.png" | relative_url }}){: style="width: 300px"}
+![Shaded rendering of earlier version]({{ "/assets/images/moment_max.png" | relative_url }}){: style="width: 300px"} ![Shaded rendering of earlier version]({{ "/assets/images/y_max.png" | relative_url }}){: style="width: 300px"}
 
 
 ```python
     # Variables
 
-L_min = 7.62 # Length of actuator when not extended. Units: cm
-L_max = 45.72 # Length of actuator when fully extended. Units: cm
-F_max = 36 # Units: KN
-x = 150-L_min # Initializing X value. Units: cm
-BCE = 150 # Units: cm
-best_optimize_factor=0
-ideal_x=0
+    L_min = 7.62 # Length of actuator when not extended. Units: cm
+    L_max = 45.72 # Length of actuator when fully extended. Units: cm
+    F_max = 36 # Units: KN
+    x = 150-L_min # Initializing X value. Units: cm
+    BCE = 150 # Units: cm
+    best_optimize_factor=0
+    ideal_x=0
 
+    # Determine optimize factor at each x integer between 1 and 150cm
+    # X value with highest is the ideal x value
 
-# Initialize lists for graphing
-factors = []
-x_values = []
-
-# Determine optimize factor at each x integer between 1 and 150cm
-# X value with highest is the ideal x value
-
-while x<=150: 
-    # Determining Max Moment About B by Actuator
+    while x<=150: 
+        # Determining Max Moment About B by Actuator
     
-    # Determine alpha (Law of Cosines):
-    alpha = math.acos((150**2+L_min**2-x**2)/(2*150*L_min))
+        # Determine alpha (Law of Cosines):
+        alpha = math.acos((150**2+L_min**2-x**2)/(2*150*L_min))
 
-    # Determine theta initial (Law of Sines):
-    theta_i = math.asin((150*math.sin(alpha))/x)
+        # Determine theta initial (Law of Sines):
+        theta_i = math.asin((150*math.sin(alpha))/x)
    
-    # Determine moment about B:
-    M_abt_b = F_max*x*math.sin(theta_i)
+        # Determine moment about B:
+        M_abt_b = F_max*x*math.sin(theta_i)
     
-    # Determine Max Height
+        # Determine Max Height
     
-    # Determine theta max (Law of Cosines):
-    theta_max = math.acos((150**2+x**2-L_max**2)/(2*150*x))
+        # Determine theta max (Law of Cosines):
+        theta_max = math.acos((150**2+x**2-L_max**2)/(2*150*x))
     
-    # Determine max height:
-    y_max = 150*math.sin(theta_max)
+        # Determine max height:
+        y_max = 150*math.sin(theta_max)
     
-    # Determine optimization factor:
-    optimize_factor = M_abt_b*y_max
+        # Determine optimization factor:
+        optimize_factor = M_abt_b*y_max
     
-    # Update plot
-    factors.append(optimize_factor)
-    x_values.append(x)
+        # Determine if better than previous
+        if optimize_factor>best_optimize_factor:
+            best_optimize_factor = optimize_factor
+            ideal_x = x
     
-    # Determine if better than previous
-    if optimize_factor>best_optimize_factor:
-        best_optimize_factor = optimize_factor
-        ideal_x = x
+        x = x+.01
     
-    x = x+.01
-    
-print(ideal_x)
+    print(ideal_x)
 ```
