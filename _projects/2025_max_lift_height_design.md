@@ -3,7 +3,7 @@ layout: project
 title: Linear Actuator Max Load and Height Design
 description: Design Challenge with Constraints
 technologies: Python Programming Language
-image: ![Design cover]({{ "/assets/images/design_cover.png" | relative_url }}){: style="width: 300px"}
+image: /assets/images/design_cover.png
 ---
 
 For ENGRD 2020 (Statics and Mechanics of Solids) we were tasked with creating a mechanism that could lift as large a weight as possible to the largest possible height. Our constraints consisted of: 150cm by 50cm workspace, three pins, a rigid bar of fixed length (our choice) and a linear actuator from a selected catalog. 
