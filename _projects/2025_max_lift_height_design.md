@@ -6,7 +6,7 @@ technologies: Python Programming Language
 image: /assets/images/design_cover.png
 ---
 
-For ENGRD 2020 (Statics and Mechanics of Solids) we were tasked with creating a mechanism that could lift as large a weight as possible to the largest possible height. Our constraints consisted of: 150cm by 50cm workspace, three pins, a rigid bar of fixed length (our choice) and a linear actuator from a selected catalog. 
+ENGRD 2020 (Statics and Mechanics of Solids) we were tasked with creating a mechanism that could lift as large a weight as possible to the largest possible height. Our constraints consisted of: 150cm by 50cm workspace, three pins, a rigid bar of fixed length (our choice) and a linear actuator from a selected catalog. 
 
 I first chose the ideal linear actuator for the task. From the catalog, the IMA33 Actuator seemed ideal with a max lifting force of 36KN (8,000 lbf) which is plenty considering the small dimensions. The actuator has a length ranging from 76.2mm to 457.2mm, or 7.62cm to 45.72cm. This is ideal as the actuator has a short starting length (when the stroke has not been extended) but still has a large reach to allow for the mechanism to extend the weight as high as possible within the workspace.
 
