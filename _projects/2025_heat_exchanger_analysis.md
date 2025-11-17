@@ -6,4 +6,4 @@ technologies: XX
 image: /assets/images/heat_exchanger.jpg
 ---
 
-For ENGRD 2210 (Thermodynamics) 
+For ENGRD 2210 (Thermodynamics) we ran a series of experiments on a given heat exchanger setup. 
