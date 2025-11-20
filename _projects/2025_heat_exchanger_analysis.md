@@ -13,7 +13,7 @@ The heat exchanger used has four labeled ports. Using these ports and specific a
 
 
 
-![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.jpeg" | relative_url }}){: .inline-image-r style="width: 600px"}
+![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.jpeg" | relative_url }}){:  style="width: 600px"}
 
 
 
@@ -21,7 +21,7 @@ Then, the heat exchanger was changed to counter-flow in which the fluids are now
 
 
 
-![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){: .inline-image-r style="width: 600px"}
+![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){:  style="width: 600px"}
 
 
 
