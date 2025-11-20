@@ -74,5 +74,31 @@ $$
 = 0}
 $$
 
+Finally, an entropy balance can be performed as shown: 
+
+$$
+\dot{S}_{cv}
+=
+\frac{\dot{Q}}{T_b}
++
+\sum \dot{m}\,(s_{in} - s_{out})
++
+\dot{\sigma}_{gen}
+$$
+
+Again, applying the assumptions made, this equation simplifies to: 
+
+$$
+\boxed{
+\dot{m}_H ( s_{H,in} - s_{H,out} )
++
+\dot{m}_C ( s_{C,in} - s_{C,out} )
++
+\dot{\sigma}_{gen} = 0
+}
+$$
+
+
+
 #### Changes & Their Impact
 XX
