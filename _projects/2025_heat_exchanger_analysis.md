@@ -38,7 +38,7 @@ This increases the surface area of interaction between the hot and cold fluid, f
 
 
 #### Control Volume System Diagram
-The control volume for the system is shown below. Note: the control volume system will look identical whether in parallel or counter flow as still in steady state and still the same amount of mass flow, just entering the heat exchanger. Then, theoretically, the results of the heat transfer should be identical for both flows, but it will be explained that this was not the case. 
+The control volume for the system is shown below. Note: the control volume system will look identical whether in parallel or counter flow as still in steady state and still the same amount of mass flow, just entering the heat exchanger in different locations. Then, theoretically, the results of the heat transfer should be identical for both flows, but it will be explained that this was not the case. 
 
 ![Shaded rendering of earlier version]({{ "/assets/images/control_volume_system.jpg" | relative_url }}){:  style="width: 500px"}
 
