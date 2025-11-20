@@ -11,37 +11,28 @@ For ENGRD 2210 (Thermodynamics) we ran a series of experiments on a given heat e
 #### Photos and Schematic
 The heat exchanger used has four labeled ports. Using these ports and specific arrangements of the tubing carrying the fluids, the heat exchanger can be set up in parallel flow or counter flow. Below is an image of the heat exchanger set up. Note: in this image, the exchanger is in parallel flow.
 
-
-
-![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.jpeg" | relative_url }}){:  style="width: 600px"}
-
-
+![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.jpeg" | relative_url }}){:  style="width: 500px"}
 
 Then, the heat exchanger was changed to counter-flow in which the fluids are now flowing in opposite directions through the heat exchanger as pictured below:
 
-
-
-![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){:  style="width: 600px"}
-
-
+![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){:  style="width: 500px"}
 
 It can be observed that on the left hand side is a red cooler with blue liquid, representing our cold fluid, while the red fluid on the right is our hot fluid. The cold was achieved through ice and an insulated bag, while the hot fluid was heated with an electic heater. The two setups can be summarized in the two schematics below:
 
-<div style="text-align: center;">
-  <img src="{{ '/assets/images/parallel_flow_schematic.jpg' | relative_url }}" style="width: 450px; display: inline-block; margin: 0 15px;" />
-  <img src="{{ '/assets/images/counter_flow_schematic.jpg' | relative_url }}" style="width: 450px; display: inline-block; margin: 0 15px;" />
-</div>
+![Shaded rendering of earlier version]({{ "/assets/images/parallel_flow_schematic.jpg" | relative_url }}){:  style="width: 400px"}
+
+![Shaded rendering of earlier version]({{ "/assets/images/counter_flow_schematic.jpg" | relative_url }}){:  style="width: 400px"}
 
 
 
 #### Qualitative Description
 Essentially, the heat exchanger operates in steady state and essentially adiabatically (will assume these conditions when completing computational analysis). The cross section of the heat exchanger (as pictured) forces the fluids to disperse amongst many different pathways. 
 
-![Shaded rendering of earlier version]({{ "/assets/images/HE_cross_section.jpg" | relative_url }}){: .inline-image-r style="width: 300px"}
+![Shaded rendering of earlier version]({{ "/assets/images/HE_cross_section.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 This increases the surface area of interaction between the hot and cold fluid, facilitating heat transfer between the two. As can be seen, the metal borders between the two fluids are very thin, again helping to facilitate this heat transfer. The rib design and thin ribs contribute to effective conduction, thereby heating the cold fluid by the hot fluid.
 
-![Shaded rendering of earlier version]({{ "/assets/images/HE_cross_section2.jpg" | relative_url }}){: .inline-image-r style="width: 300px"}
+![Shaded rendering of earlier version]({{ "/assets/images/HE_cross_section2.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 #### Control Volume System Diagram
 XX
