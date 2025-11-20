@@ -11,11 +11,11 @@ For ENGRD 2210 (Thermodynamics) we ran a series of experiments on a given heat e
 #### Photos and Schematic
 The heat exchanger used has four labeled ports. Using these ports and specific arrangements of the tubing carrying the fluids, the heat exchanger can be set up in parallel flow or counter flow. Below is an image of the heat exchanger set up. Note: in this image, the exchanger is in parallel flow.
 
-{{ "/assets/images/general_exchanger.HEIC" | relative_url }}){: .inline-image-r style="width: 400px"}
+![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.HEIC" | relative_url }}){: .inline-image-r style="width: 600px"}
 
 Then, the heat exchanger was changed to counter-flow in which the fluids are now flowing in opposite directions through the heat exchanger as pictured below:
 
-{{ "/assets/images/counter_flow.jpeg" | relative_url }}){: .inline-image-r style="width: 400px"}
+![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){: .inline-image-r style="width: 600px"}
 
 It can be observed that on the left hand side is a red cooler with blue liquid, representing our cold fluid, while the red fluid on the right is our hot fluid. The cold was ahcieved through ice and an insulated bag, while the hot fluid was heated with an electic heater. The two setups can be summarized in the two schematics below:
 
