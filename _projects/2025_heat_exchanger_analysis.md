@@ -59,12 +59,26 @@ $$
 $$
 
 Integrating this equation then yields:
+
 $$
 m_{H,\text{in}} + m_{C,\text{in}} 
 = 
 m_{H,\text{out}} + m_{C,\text{out}}
 $$
 
+Now, will complete an energy balance within the control volume: 
+
+$$
+\dot{E}_{CV} = \dot{Q} - \dot{W} + \sum \dot{m}_{\text{in}} \left(h_{\text{in}} + PE_{\text{in}} + KE_{\text{in}} \right) - \sum \dot{m}_{\text{out}} \left(h_{\text{out}} + PE_{\text{out}} + KE_{\text{out}} \right)
+$$
+
+Then, with the steady state and adiabatic assumption, as well as assuming $\dot{W} = 0$, and kinetic and potential energy are negligible-- a typical assumption for heat exchangers-- this equation simplifies to: 
+
+$$
+\dot{m}_H \left( h_{H,in} - h_{H,out} \right)
++ \dot{m}_C \left( h_{C,in} - h_{C,out} \right)
+= 0
+$$
 
 #### Changes & Their Impact
 XX
