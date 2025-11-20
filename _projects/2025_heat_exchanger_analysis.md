@@ -25,7 +25,12 @@ Then, the heat exchanger was changed to counter-flow in which the fluids are now
 
 
 
-It can be observed that on the left hand side is a red cooler with blue liquid, representing our cold fluid, while the red fluid on the right is our hot fluid. The cold was ahcieved through ice and an insulated bag, while the hot fluid was heated with an electic heater. The two setups can be summarized in the two schematics below:
+It can be observed that on the left hand side is a red cooler with blue liquid, representing our cold fluid, while the red fluid on the right is our hot fluid. The cold was achieved through ice and an insulated bag, while the hot fluid was heated with an electic heater. The two setups can be summarized in the two schematics below:
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/parallel_flow_schematic.jpg' | relative_url }}" style="width: 250px; display: inline-block; margin: 0 15px;" />
+  <img src="{{ '/assets/images/counter_flow_schematic.jpg' | relative_url }}" style="width: 250px; display: inline-block; margin: 0 15px;" />
+</div>
 
 #### Qualitative Description
 XX
