@@ -120,6 +120,8 @@ When looking at the equations above, it appears that it would not matter which f
 | Temperature difference (hot – cold) at outlet | 21.4 - 17.75 = 3.65 °C |
 
 
+
+
 ###### Experiment 2: Counter Flow
 
 | Description | Value |
@@ -129,6 +131,8 @@ When looking at the equations above, it appears that it would not matter which f
 | Hot fluid ending temperature | 19.8 °C |
 | Cold fluid ending temperature | 25.6 °C |
 | Temperature difference (hot – cold) at outlet | 25.6 - 19.8 = 5.8 °C | 
+
+
 
 
 ###### Analysis
