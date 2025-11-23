@@ -110,6 +110,7 @@ When looking at the equations above, it appears that it would not matter which f
 
 
 ###### Experiment 1: Parallel Flow
+
 | Description | Value |
 |------------|--------|
 | Hot fluid starting temperature | 40 °C |
@@ -120,6 +121,7 @@ When looking at the equations above, it appears that it would not matter which f
 
 
 ###### Experiment 2: Counter Flow
+
 | Description | Value |
 |------------|--------|
 | Hot fluid starting temperature | 40 °C |
