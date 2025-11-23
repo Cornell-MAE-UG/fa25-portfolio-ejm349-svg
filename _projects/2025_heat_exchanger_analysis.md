@@ -117,7 +117,7 @@ When looking at the equations above, it appears that it would not matter which f
 | Cold fluid starting temperature | 4 °C |
 | Hot fluid ending temperature | 21.4 °C |
 | Cold fluid ending temperature | 17.75 °C |
-| Temperature difference (hot – cold) at outlet | 21.4 - 17.75 = 3.65 °C |
+| Temperature difference at outlet | 21.4 - 17.75 = 3.65 °C |
 
 
 
@@ -130,7 +130,7 @@ When looking at the equations above, it appears that it would not matter which f
 | Cold fluid starting temperature | 7.7 °C |
 | Hot fluid ending temperature | 19.8 °C |
 | Cold fluid ending temperature | 25.6 °C |
-| Temperature difference (hot – cold) at outlet | 25.6 - 19.8 = 5.8 °C | 
+| Temperature difference at outlet | 25.6 - 19.8 = 5.8 °C | 
 
 
 
