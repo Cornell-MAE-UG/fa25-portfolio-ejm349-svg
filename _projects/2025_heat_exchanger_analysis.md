@@ -46,7 +46,7 @@ The control volume for the system is shown below. Note: the control volume syste
 
 
 #### Quantitative Analysis
-With an understanding of how the heat exchanger operates, a computational analysis can be performed to better understand the first operation of the exchanger. First, a mass balance equation will be derived due to the steady state assumption:
+With an understanding of how the heat exchanger operates, a computational analysis can be performed to better understand the operation of the exchanger. First, a mass balance equation will be derived due to the steady state assumption:
 
 $$
 \sum \dot{m}_{\text{in}} = \sum \dot{m}_{\text{out}}
@@ -60,13 +60,13 @@ $$
 \dot{m}_{H,\text{out}} + \dot{m}_{C,\text{out}}}
 $$
 
-Now, will complete an energy balance within the control volume: 
+Now, will complete an energy balance within the control volume assuming the fluids do not mix: 
 
 $$
 \dot{E}_{CV} = \dot{Q} - \dot{W} + \sum \dot{m}_{\text{in}} \left(h_{\text{in}} + PE_{\text{in}} + KE_{\text{in}} \right) - \sum \dot{m}_{\text{out}} \left(h_{\text{out}} + PE_{\text{out}} + KE_{\text{out}} \right)
 $$
 
-Then, with the steady state and adiabatic assumption, as well as assuming $\dot{W} = 0$ and kinetic and potential energy are negligible-- a typical assumption for heat exchangers-- this equation simplifies to: 
+Then, with the steady state and adiabatic assumption (no external heat transfer), as well as assuming $\dot{W} = 0$ and kinetic and potential energy are negligible-- a typical assumption for heat exchangers-- this equation simplifies to: 
 
 $$
 \boxed{ \dot{m}_H \left( h_{H,in} - h_{H,out} \right)
@@ -98,7 +98,26 @@ $$
 }
 $$
 
+The equation could be further simplified by assuming the heat exchanger is reversible and setting $\dot{\sigma}_{gen} = 0$, however, consdiering there is a heat transfer over a finite temperature difference within the heat exchanger, this would likely be an invalid assumption.
 
 
-#### Changes & Their Impact
-XX
+#### Change & Its Impact: Parllel vs. Counter Flow
+Although equations shown above have been created a simplfieid to model the operation of the heat exchanger, observing the role they play in a concrete example is of value. During the lab, we chose to observe the effect on the operation of the heat exchanger when we switched from parallel flow to counter flow as has been alluded to above.
+
+When looking at the equations above, it appears that it would not matter which flow you choose, the values will be the same, however, this was not the case. We ran two experiments: 
+
+##### Experiment 1: Parallel Flow
+  Hot fluid starting temperature: $40$ degrees celsius 
+  Cold fluid starting temperature: $4$ degrees celsius
+  Hot fluid ending temperature: $21.4$ degrees celsius
+  Cold fluid ending temperature: $17.75$ degrees celsius
+  Temperature difference between ending temperature of hot and cold fluid: $21.4 - 17.75 = 3.65$ degrees celsius
+
+##### Experiment 2: Counter Flow
+  Hot fluid starting temperature: $40$ degrees celsius 
+  Cold fluid starting temperature: $7.7$ degrees celsius
+  Hot fluid ending temperature: $19.8$ degrees celsius
+  Cold fluid ending temperature: $25.6$ degrees celsius
+  Temperature difference between ending temperature of hot and cold fluid: $25.6 - 19.8 = 5.8$ degrees celsius
+
+  
