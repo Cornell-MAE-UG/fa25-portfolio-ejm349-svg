@@ -109,29 +109,27 @@ When looking at the equations above, it appears that it would not matter which f
 
 
 
-##### Experiment 1: Parallel Flow
+###### Experiment 1: Parallel Flow
 | Description | Value |
 |------------|--------|
 | Hot fluid starting temperature | 40 °C |
 | Cold fluid starting temperature | 4 °C |
 | Hot fluid ending temperature | 21.4 °C |
 | Cold fluid ending temperature | 17.75 °C |
-| Temperature difference (hot – cold) at outlet | \(21.4 - 17.75 = 3.65\ \text{°C}\) |
-
-  
-  Hot fluid starting temperature: $40$ degrees celsius 
-  Cold fluid starting temperature: $4$ degrees celsius
-  Hot fluid ending temperature: $21.4$ degrees celsius
-  Cold fluid ending temperature: $17.75$ degrees celsius
-  Temperature difference between ending temperature of hot and cold fluid: $21.4 - 17.75 = 3.65$ degrees celsius
+| Temperature difference (hot – cold) at outlet | 21.4 - 17.75 = 3.65 °C |
 
 
+###### Experiment 2: Counter Flow
+| Description | Value |
+|------------|--------|
+| Hot fluid starting temperature | 40 °C |
+| Cold fluid starting temperature | 7.7 °C |
+| Hot fluid ending temperature | 19.8 °C |
+| Cold fluid ending temperature | 25.6 °C |
+| Temperature difference (hot – cold) at outlet | 25.6 - 19.8 = 5.8 °C | 
 
-##### Experiment 2: Counter Flow
-  Hot fluid starting temperature: $40$ degrees celsius 
-  Cold fluid starting temperature: $7.7$ degrees celsius
-  Hot fluid ending temperature: $19.8$ degrees celsius
-  Cold fluid ending temperature: $25.6$ degrees celsius
-  Temperature difference between ending temperature of hot and cold fluid: $25.6 - 19.8 = 5.8$ degrees celsius
 
+###### Analysis
+It should be acknowledged that the starting temperature for the cold fluid for the second experiment was slightly higher than the first due to it already having been heated once and taking an extended period of time to cool back down. However, I argue that this highlights to difference between the two flows even further. Despite the hot and cold fluid being at a smaller initial temperature difference in the counter flow example, the cold fluid still heated up slightly more in counter flow than in parallel flow, and what is perhaps more signficiant is the temperature difference at the outlet. In counter flow, the difference between the fluids at the end was noticably larger than in parallel flow. 
 
+This is counterintuitive when first observing the equations found above-- the data should be identical. The underlying cause of this discrpancy is the time the fluids spend in close proximity, and therefore the time conduction is taking place between the fluids themselves. In parallel flow, the fluids are moving together through the heat exchanger, having a large amount of time to transfer heat from the hot to cold fluid, and therefore have more time to tend towards their equilibrium temperature. In counter flow, when the fluids first begin flowing through the exchanger, they do not have significant heat transfer until they meet in the middle of the exchanger. This causes a larger temperature difference and therefore more heat transfer. This pattern continues as the fluid continues to encounter fluid 
