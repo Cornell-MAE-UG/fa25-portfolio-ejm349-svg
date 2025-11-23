@@ -98,13 +98,16 @@ $$
 }
 $$
 
-The equation could be further simplified by assuming the heat exchanger is reversible and setting $\dot{\sigma}_{gen} = 0$, however, consdiering there is a heat transfer over a finite temperature difference within the heat exchanger, this would likely be an invalid assumption.
+The equation could be further simplified by assuming the heat exchanger is reversible and setting $\dot{\sigma}_{gen} = 0$, however, considering there is a heat transfer over a finite temperature difference within the heat exchanger, this would likely be an invalid assumption.
 
 
-#### Change & Its Impact: Parllel vs. Counter Flow
+
+#### Change & Its Impact: Parallel vs. Counter Flow
 Although equations shown above have been created a simplfieid to model the operation of the heat exchanger, observing the role they play in a concrete example is of value. During the lab, we chose to observe the effect on the operation of the heat exchanger when we switched from parallel flow to counter flow as has been alluded to above.
 
 When looking at the equations above, it appears that it would not matter which flow you choose, the values will be the same, however, this was not the case. We ran two experiments: 
+
+
 
 ##### Experiment 1: Parallel Flow
   Hot fluid starting temperature: $40$ degrees celsius 
@@ -113,6 +116,8 @@ When looking at the equations above, it appears that it would not matter which f
   Cold fluid ending temperature: $17.75$ degrees celsius
   Temperature difference between ending temperature of hot and cold fluid: $21.4 - 17.75 = 3.65$ degrees celsius
 
+
+
 ##### Experiment 2: Counter Flow
   Hot fluid starting temperature: $40$ degrees celsius 
   Cold fluid starting temperature: $7.7$ degrees celsius
@@ -120,4 +125,3 @@ When looking at the equations above, it appears that it would not matter which f
   Cold fluid ending temperature: $25.6$ degrees celsius
   Temperature difference between ending temperature of hot and cold fluid: $25.6 - 19.8 = 5.8$ degrees celsius
 
-  
