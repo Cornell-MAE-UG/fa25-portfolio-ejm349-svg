@@ -110,6 +110,15 @@ When looking at the equations above, it appears that it would not matter which f
 
 
 ##### Experiment 1: Parallel Flow
+  | Description | Value |
+|------------|--------|
+| Hot fluid starting temperature | 40 °C |
+| Cold fluid starting temperature | 4 °C |
+| Hot fluid ending temperature | 21.4 °C |
+| Cold fluid ending temperature | 17.75 °C |
+| Temperature difference (hot – cold) at outlet | \(21.4 - 17.75 = 3.65\ \text{°C}\) |
+
+  
   Hot fluid starting temperature: $40$ degrees celsius 
   Cold fluid starting temperature: $4$ degrees celsius
   Hot fluid ending temperature: $21.4$ degrees celsius
@@ -124,4 +133,5 @@ When looking at the equations above, it appears that it would not matter which f
   Hot fluid ending temperature: $19.8$ degrees celsius
   Cold fluid ending temperature: $25.6$ degrees celsius
   Temperature difference between ending temperature of hot and cold fluid: $25.6 - 19.8 = 5.8$ degrees celsius
+
 
