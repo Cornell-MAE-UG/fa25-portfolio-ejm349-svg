@@ -112,7 +112,7 @@ When looking at the equations above, it appears that it would not matter which f
 ###### Experiment 1: Parallel Flow
 
 | Description | Value |
-|:------------|--------:|
+|----------------|--------|
 | Hot fluid starting temperature | 40 °C |
 | Cold fluid starting temperature | 4 °C |
 | Hot fluid ending temperature | 21.4 °C |
@@ -123,7 +123,7 @@ When looking at the equations above, it appears that it would not matter which f
 ###### Experiment 2: Counter Flow
 
 | Description | Value |
-|:------------|--------:|
+|----------------|--------|
 | Hot fluid starting temperature | 40 °C |
 | Cold fluid starting temperature | 7.7 °C |
 | Hot fluid ending temperature | 19.8 °C |
