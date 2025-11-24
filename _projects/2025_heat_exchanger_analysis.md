@@ -103,7 +103,7 @@ The equation could be further simplified by assuming the heat exchanger is rever
 
 
 #### Change & Its Impact: Parallel vs. Counter Flow
-Although equations shown above have been created a simplified to model the operation of the heat exchanger, observing the role they play in a concrete example is of value. During the lab, we chose to observe the effect on the operation of the heat exchanger when we switched from parallel flow to counter flow as has been alluded to above.
+Although the equations shown above have created a simplified model of the operation of the heat exchanger, observing the role they play in a concrete example is of value. During the lab, we chose to observe the effect on the operation of the heat exchanger when we switched from parallel flow to counter flow as has been alluded to above.
 
 When looking at the equations above, it appears that it would not matter which flow you choose, the values will be the same, however, this was not the case. We ran two experiments: 
 
@@ -138,7 +138,7 @@ It should be noted that the starting temperature of the cold fluid in the second
 
 This might seem counterintuitive at first, as one might expect similar heat transfer for identical fluids and flow rates. The key difference lies in the temperature gradients along the heat exchanger. In parallel flow, the hot and cold fluids move together, so the temperature difference decreases along the length of the exchanger, limiting the overall heat transfer. In counter flow, the cold fluid meets progressively hotter portions of the hot fluid along the exchanger. This maintains a larger temperature difference across most of the exchanger, allowing more heat to be transferred overall. As a result, counter flow achieves a higher cold fluid outlet temperature and a larger outlet temperature difference between the fluids compared to parallel flow.
 
-Recall the energy balance equation derived above. Because both the hot and cold fluids were water and the same pump was used, it can be assumed that their mass flow rates were identical. If the regions where only the hot fluid and only the cold fluid are taken was control volumes, the same assumptions apply, except it is no longer adiabatic. The heat transfers into them would be equal and opposite, and hence why the entire system taken as a control volume would be adiabatic. Considering these individual control volumes and assuming water is an incompressible substance with constant specific heat, the following equations are yielded: 
+Recall the energy balance equation derived above. Because both the hot and cold fluids were water and the same pump was used, it can be assumed that their mass flow rates were identical. If the regions where only the hot fluid and only the cold fluid flow are taken as control volumes, the same assumptions apply, except it is no longer adiabatic. The heat transfers into them would be equal and opposite, and hence why the entire system taken as a control volume would be adiabatic. Considering these individual control volumes and assuming water is an incompressible substance with constant specific heat, the following equations are yielded: 
 
 $$
 \dot{Q}_{C} = \dot{m}_{C}C_{W}\Delta T_{C}
@@ -148,7 +148,7 @@ $$
 \dot{Q}_{H} = \dot{m}_{H}C_{W}\Delta T_{H}
 $$
 
-Thus, because the heat transfers are assumed to be equal and opposite, it is valid to only consider the magnitude of one to determine the effectiveness of each. Let the effectiveness be denoted by $\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}}$ because assumed mass flow rate and specific heats are constant. First, determine for parallel flow: 
+Thus, because the heat transfers are assumed to be equal and opposite, it is valid to only consider the magnitude of one to determine the effectiveness of each. Let the effectiveness be denoted by $$\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}}$$ because assumed mass flow rate and specific heats are constant. First, determine for parallel flow: 
 
 $$
 \varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{17.75°C - 4°C}{40°C - 4°C} = 0.382 = 38.2\%
@@ -166,7 +166,7 @@ Hence, a quantitative display in the rough difference in effectiveness of the pa
 
 
 #### Concluding Notes
-There were a series of assumptions made throughout this analysis, including: steady state operation, adiabatic, potential and kinetic energy being negligible, constant specific heats, and water being an incompressible substance. Of course, these assumptions are not perfect, but they allow for a reasonable approximation of the operation of the heat exchanger. Heat exchangers are found all over, such as in: air conditioners, radiators, car engines, refrigerators, etc. Being able to analyze them through making reasonable assumptions is incredibly important. 
+There were a series of assumptions made throughout this analysis, including: steady state operation, adiabatic, potential and kinetic energy being negligible, constant specific heats, and water being an incompressible substance. Of course, these assumptions are not perfect, but they allow for a reasonable approximation of the operation of the heat exchanger. Heat exchangers are found all over, such as in air conditioners, radiators, car engines, refrigerators, etc. Being able to analyze them through making reasonable assumptions is incredibly important. 
 
 Below is a video of the operation of the heat exchanger used in counter flow:
 
