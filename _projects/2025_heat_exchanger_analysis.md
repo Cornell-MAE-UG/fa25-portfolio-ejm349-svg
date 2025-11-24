@@ -162,7 +162,7 @@ $$
 \varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{25.6°C - 7.7°C}{40°C - 7.7°C} = 0.554 = 55.4\%
 $$
 
-Hence, a quantitative display in the rough difference in effectiveness of the parallel vs. counter flow set ups in this heat exchanger.
+Hence, a quantitative display in the rough difference in effectiveness of the parallel vs. counter flow set ups in this heat exchanger. It is clear that the counter flow set up was more effective in heat transfer between the hot and cold fluids than parallel flow-- a result that was originally not expected based off the equations alone.
 
 
 #### Concluding Notes
