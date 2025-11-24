@@ -11,11 +11,11 @@ For ENGRD 2210 (Thermodynamics) we ran a series of experiments on a given heat e
 #### Photos and Schematic
 The heat exchanger used has four labeled ports. Using these ports and specific arrangements of the tubing carrying the fluids, the heat exchanger can be set up in parallel flow or counter flow. Below is an image of the heat exchanger set up. Note: in this image, the exchanger is in parallel flow.
 
-![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.jpeg" | relative_url }}){:  style=""display:block; margin:0 auto; width: 500px;"}
+![Shaded rendering of earlier version]({{ "/assets/images/general_exchanger.jpeg" | relative_url }}){: style="display:block; margin:0 auto; max-width:500px; width:100%;" }
 
 Then, the heat exchanger was changed to counter-flow in which the fluids are now flowing in opposite directions through the heat exchanger as pictured below:
 
-![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){:  style=""display:block; margin:0 auto;width: 500px;"}
+![Shaded rendering of earlier version]({{ "/assets/images/counter_flow.jpeg" | relative_url }}){: style="display:block; margin:0 auto; max-width:500px; width:100%;" }
 
 It can be observed that on the left hand side is a red cooler with blue liquid, representing our cold fluid, while the red fluid on the right is our hot fluid. The cold was achieved through ice and an insulated bag, while the hot fluid was heated with an electric heater. The two setups can be summarized in the two schematics below:
 
@@ -41,9 +41,6 @@ In summary, the heat exchanger operates by increasing the surface area of both t
 
 #### Control Volume System Diagram
 The control volume for the system is shown below. Note: the control volume system will look identical whether in parallel or counter flow as still in steady state and still the same amount of mass flow, just entering the heat exchanger in different locations. Then, theoretically, the results of the heat transfer should be identical for both flows, but it will be explained that this was not the case. 
-
-![Shaded rendering]({{ "/assets/images/control_volume_system.jpg" | relative_url }}){: style="display:block; margin-left:auto; margin-right:auto; max-width:500px; width:100%;" }
-
 
 ![Shaded rendering of earlier version]({{ "/assets/images/control_volume_system.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
 
