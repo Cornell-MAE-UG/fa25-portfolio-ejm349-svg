@@ -2,7 +2,7 @@
 layout: project
 title: Heat Exchanger Analysis
 description: Control Volume Analysis
-technologies: XX
+technologies: LaTeX
 image: /assets/images/HE_final.jpg
 ---
 
@@ -134,6 +134,42 @@ When looking at the equations above, it appears that it would not matter which f
 
 
 ###### Analysis
-It should be acknowledged that the starting temperature for the cold fluid for the second experiment was slightly higher than the first due to it already having been heated once and taking an extended period of time to cool back down. However, I argue that this highlights to difference between the two flows even further. Despite the hot and cold fluid being at a smaller initial temperature difference in the counter flow example, the cold fluid still heated up slightly more in counter flow than in parallel flow, and what is perhaps more signficiant is the temperature difference at the outlet. In counter flow, the difference between the fluids at the end was noticably larger than in parallel flow. 
+It should be noted that the starting temperature of the cold fluid in the second experiment was slightly higher than in the first, because it had already been heated once and had not fully cooled. However, this actually emphasizes the difference between the two flow configurations. Despite a smaller initial temperature difference in the counter flow experiment, the cold fluid still reached a higher outlet temperature than in the parallel flow configuration. More significantly, the temperature difference between the hot and cold fluids at the outlet was noticeably larger in counter flow.
 
-This is counterintuitive when first observing the equations found above-- the data should be identical. The underlying cause of this discrpancy is the time the fluids spend in close proximity, and therefore the time conduction is taking place between the fluids themselves. In parallel flow, the fluids are moving together through the heat exchanger, having a large amount of time to transfer heat from the hot to cold fluid, and therefore have more time to tend towards their equilibrium temperature. In counter flow, when the fluids first begin flowing through the exchanger, they do not have significant heat transfer until they meet in the middle of the exchanger. This causes a larger temperature difference and therefore more heat transfer. This pattern continues as the fluid continues to encounter fluid 
+This might seem counterintuitive at first, as one might expect similar heat transfer for identical fluids and flow rates. The key difference lies in the temperature gradients along the heat exchanger. In parallel flow, the hot and cold fluids move together, so the temperature difference decreases along the length of the exchanger, limiting the overall heat transfer. In counter flow, the cold fluid meets progressively hotter portions of the hot fluid along the exchanger. This maintains a larger temperature difference across most of the exchanger, allowing more heat to be transferred overall. As a result, counter flow achieves a higher cold fluid outlet temperature and a larger outlet temperature difference between the fluids compared to parallel flow.
+
+Recall the energy balance equation derived above. Because both the hot and cold fluids were water and the same pump was used, it can be assumed that their mass flow rates were identical. If the regions where only the hot fluid and only the cold fluid are taken was control volumes, the same assumptions apply, except it is no longer adiabatic. The heat transfers into them would be equal and opposite, and hence why the entire system taken as a control volume would be adiabatic. Considering these individual control volumes and assuming water is an incompressible susbtance with constant specific heat, the following equations are yielded: 
+
+$$
+\dot{Q}_{C} = \dot{m}_{C}C_{W}\Delta T_{C}
+$$
+$$
+\dot{Q}_{H} = \dot{m}_{H}C_{W}\Delta T_{H}
+$$
+
+Thus, because the heat transfers are assumed to be equal and opposite, it is valid to only consider the magnitude of one to determine the effectiveness of each. Let the effectiveness be denoted by $\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}}$ because assumed mass flow rate and specific heats are constant. First, determine for parallel flow: 
+
+$$
+\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{17.75°C - 4°C}{40°C - 4°C} = 0.382 = 38.2%
+$$
+
+This was found where the actual change in temperature is the magnitidue of the change in temperature of the cold fluid, and the max is if the cold fluid reached the same temperature as the hot fluid-- of course, not possible, but a good value to act as a reference point of comparison. 
+
+Now, repeat for counter flow:
+
+$$
+\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{25.6°C - 7.7°C}{40°C - 7.7°C} = 0.554 = 55.4%
+$$
+
+Hence, a quantitative display in the rough difference in effectiveness of the parallel vs. counter flow set ups in this heat exchanger.
+
+
+#### Concluding Notes
+There were a series of assumptions made throughout this analysis, including: steady state operation, adiabatic, potential and kinetic energy being negligible, constant specific heats, and water being an incompressible substance. Of course, these assumptions are not perfect, but they allow for a reasonable approximation of the operation of the heat exchanger. Heat exchangers are found all over, such as in: air conditioners, radiators, car engines, refrigerators, etc. Being able to analyze them through making reasonable assumptions is incredibly important. 
+
+Below is a video of the operation of the heat exchanger used in counter flow:
+
+<video width="560" height="315" controls>
+  <source src="{{ '/assets/images/IMG_6522.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
