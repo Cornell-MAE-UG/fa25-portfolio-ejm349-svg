@@ -200,4 +200,22 @@ footer {
   transform: translateX(-4px);
 }
 
+/* --- Table Borders (added manually) --- */
+table {
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid #666;
+  padding: 8px 12px;
+}
+
+table th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
 
