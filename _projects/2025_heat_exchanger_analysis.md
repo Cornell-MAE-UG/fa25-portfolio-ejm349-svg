@@ -42,6 +42,9 @@ In summary, the heat exchanger operates by increasing the surface area of both t
 #### Control Volume System Diagram
 The control volume for the system is shown below. Note: the control volume system will look identical whether in parallel or counter flow as still in steady state and still the same amount of mass flow, just entering the heat exchanger in different locations. Then, theoretically, the results of the heat transfer should be identical for both flows, but it will be explained that this was not the case. 
 
+![Shaded rendering]({{ "/assets/images/control_volume_system.jpg" | relative_url }}){: style="display:block; margin-left:auto; margin-right:auto; max-width:500px; width:100%;" }
+
+
 ![Shaded rendering of earlier version]({{ "/assets/images/control_volume_system.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
 
 
