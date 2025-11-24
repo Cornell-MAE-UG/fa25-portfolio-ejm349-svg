@@ -143,6 +143,7 @@ Recall the energy balance equation derived above. Because both the hot and cold 
 $$
 \dot{Q}_{C} = \dot{m}_{C}C_{W}\Delta T_{C}
 $$
+
 $$
 \dot{Q}_{H} = \dot{m}_{H}C_{W}\Delta T_{H}
 $$
@@ -150,7 +151,7 @@ $$
 Thus, because the heat transfers are assumed to be equal and opposite, it is valid to only consider the magnitude of one to determine the effectiveness of each. Let the effectiveness be denoted by $\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}}$ because assumed mass flow rate and specific heats are constant. First, determine for parallel flow: 
 
 $$
-\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{17.75°C - 4°C}{40°C - 4°C} = 0.382 = 38.2%
+\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{17.75°C - 4°C}{40°C - 4°C} = 0.382 = 38.2\%
 $$
 
 This was found where the actual change in temperature is the magnitidue of the change in temperature of the cold fluid, and the max is if the cold fluid reached the same temperature as the hot fluid-- of course, not possible, but a good value to act as a reference point of comparison. 
@@ -158,7 +159,7 @@ This was found where the actual change in temperature is the magnitidue of the c
 Now, repeat for counter flow:
 
 $$
-\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{25.6°C - 7.7°C}{40°C - 7.7°C} = 0.554 = 55.4%
+\varepsilon = \frac{\dot{Q}_\text{actual}}{\dot{Q}_\text{max}} = \frac{\Delta T_{\text{actual}}}{\Delta T_{\text{max}}} = \frac{25.6°C - 7.7°C}{40°C - 7.7°C} = 0.554 = 55.4\%
 $$
 
 Hence, a quantitative display in the rough difference in effectiveness of the parallel vs. counter flow set ups in this heat exchanger.
