@@ -87,7 +87,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 
 #### Extracurricular Activities
 - Member, American Society of Mechanical Engineers  
-- Captain, Intramural Soccer | Doubles Pickleball League  
+- Intramural Soccer, Doubles Pickleball League  
 - Hobbies: 3D Printing/Design, Mountain Biking, Skiing, Pickleball, Piano  
 
 ---
