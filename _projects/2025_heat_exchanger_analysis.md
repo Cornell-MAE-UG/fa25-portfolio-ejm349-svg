@@ -171,6 +171,6 @@ There were a series of assumptions made throughout this analysis, including: ste
 Below is a video of the operation of the heat exchanger used in counter flow:
 
 <video width="560" height="315" controls muted>
-  <source src="{{ '/assets/images/IMG_6522.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/images/heat_exchanger_video.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
