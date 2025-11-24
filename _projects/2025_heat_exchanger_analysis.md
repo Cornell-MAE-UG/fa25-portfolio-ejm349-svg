@@ -119,8 +119,7 @@ When looking at the equations above, it appears that it would not matter which f
 | Cold fluid ending temperature | 17.75 °C |
 | Temperature difference at outlet | 21.4 - 17.75 = 3.65 °C |
 
-
-
+<br><br>
 
 ###### Experiment 2: Counter Flow
 
@@ -132,8 +131,7 @@ When looking at the equations above, it appears that it would not matter which f
 | Cold fluid ending temperature | 25.6 °C |
 | Temperature difference at outlet | 25.6 - 19.8 = 5.8 °C | 
 
-
-
+<br><br>
 
 ###### Analysis
 It should be acknowledged that the starting temperature for the cold fluid for the second experiment was slightly higher than the first due to it already having been heated once and taking an extended period of time to cool back down. However, I argue that this highlights to difference between the two flows even further. Despite the hot and cold fluid being at a smaller initial temperature difference in the counter flow example, the cold fluid still heated up slightly more in counter flow than in parallel flow, and what is perhaps more signficiant is the temperature difference at the outlet. In counter flow, the difference between the fluids at the end was noticably larger than in parallel flow. 
