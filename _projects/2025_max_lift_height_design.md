@@ -104,21 +104,36 @@ With this in mind, the final design will have the actuator attach to BCE at its 
 Now, analysis will be completed to better understand the limitations of the design. The bar is no longer rigid and is susceptable to bending from the combined action of the weight and the actuator force. 
 
 ###### Assumptions
-Bar is non-rigid, weight is still behaving as a concentrated load, considering only components of the force transverse to the beam, beam is slender, plane sections remain plane, maximum weight is equal to the maximum force output of the actuator, and small deformations.
+Bar is non-rigid, weight is a constant distributed load over a length L starting from point E, considering only components of the force transverse to the beam, beam is slender, plane sections remain plane, maximum (total) weight is equal to the maximum force output of the actuator, and small deformations.
 
 ###### Finding Maximum Deflection
-To find the maximum deflection, notice that the two forces (from the actuator and applied load from the weight) act at the same location (the end of the beam) albeit in different directions. Because only the transverse components of these forces are being considered, the maximum net load will occur when the actuator is not extended. First, will calculate the relevant angles as defined in the previous sections and create a free body diagram: 
+To find the maximum deflection, notice that the force from the actuator passes through one of the pins, and thus does not cause bending-- only need to consider weight for bending. Because only the transverse components of these forces are being considered, the maximum net load will occur when the actuator is not extended (largest transverse component). First, will calculate the relevant angles as defined in the previous sections and create a free body diagram: 
 
 $$
-\alpha = \arccos(\frac{(150cm)^2 + (7.62cm)^2 - (150cm)^2}{2(150cm)(7.62cm)}) = 88.54^\circ
+\alpha = \theta_i = \arccos(\frac{(150cm)^2 + (7.62cm)^2 - (150cm)^2}{2(150cm)(7.62cm)}) = 88.54^\circ
 $$
 
 $$
 \beta = 2\alpha - 90^\circ = 2(88.54^\circ) - 90^\circ = 87.09^\circ
 $$
 
-These are valid because the design creates an isoceles triangle as two sides are equal to 150 cm. 
+![Shaded rendering of earlier version]({{ "/assets/images/fbd_bending_fix.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 400px;"}
 
+Note: These are valid because the design creates an isoceles triangle as two sides are equal to 150 cm. The total weight is drawn as a single force acting through the centroid of its surface of application (half of L because stated it is a constant distrubuted load).
+
+Now, find the transverse force on the bar (component of weight that is transverse): 
+
+$$
+W_{\max,t} = W_{\max}\sin\beta = 36\,\text{kN}\,\sin(87.09^\circ) = 35.95KN
+$$
+
+This beam behaves as a pinned-pinned beam experiencing a transverse force at a point along its length. This precise scenario is solved in the course textbook appendix, from which it can be found that (after substituting specific values from this problem):
+
+$$
+y_{\text{d, max}} = -\frac{W_{\max,t}\left(\frac{L}{2}\right)\left[\left(150\,\text{cm}\right)^2 - \left(\frac{L}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, E I \left(150\,\text{cm}\right)}
+$$
+
+Thus, the maximum bending of the beam is related to the length L over which the distributed load is applied, or more practically, how large the box or container this system is designed to lift is-- this conceptually makes sense that there is this dependence. This equation holds as long as $\frac{L}{2} < 75cm$.
 ###### Choosing Beam Design (Cross Section, Material)
 XXX
 
