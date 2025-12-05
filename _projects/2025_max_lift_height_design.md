@@ -24,7 +24,7 @@ I first chose the ideal linear actuator for the task. From the catalog, the IMA3
 
 I chose to have the rigid bar labeled BCE to have a length of 150cm exactly, to extend the length of the workspace when horizontal to allow the weight (attached at point E) to be lifted as high as possible when the actuator (AC) is activated. With this, the general design of the actuator was complete, and this left the most critical design choice: the location of Pin C (where the actuator attaches to the rigid bar). As I will show below, the distance from Pin B to Pin C, labeled X, will affect both the max weight and the max height in opposing ways (they are in contradiction with each). I then will display the optimization process I used with Python to determine the optimum X value. 
 
-![Shaded rendering of earlier version]({{ "/assets/images/FBD_of_rigid_arm.png" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
+![Shaded rendering of earlier version]({{ "/assets/images/FBD_of_rigid_arm.png" | relative_url }}){:  style="display:block; margin:0 auto; width: 300px;"}
 
 ###### Computational Analysis
 Considering the Free Body Diagram for the rigid bar, there are reaction forces acting at pin B, as well as the force from the actuator acting at Pin C and the weight acting downwards at Pin E (both of which cause moments about B). Considering sum of moments about B, a larger moment arm gives the force from the actuator a larger applied moment at B, and could therefore lift more weight. However, when giving the actuator a larger moment arm (larger X), the max angle between BCE and the horizontal when the actuator is fully extended decreases, and hence the weight is not lifted as high. Therefore, these goals are in contradiction with each other. Hence, a balance must be struck between the two. 
@@ -97,7 +97,7 @@ Changes to the definition of the optimization factor could be valuable in explor
 ###### Final Design v1
 With this in mind, the final design will have the actuator attach to BCE at its end point (the location where the load is concentrated). The design is shown below:
 
-![Shaded rendering of earlier version]({{ "/assets/images/final_design_v1.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
+![Shaded rendering of earlier version]({{ "/assets/images/final_design_v1.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 400px;"}
 
 ##### Non-Rigid Static Analysis
 Now, analysis will be completed to better understand the limitations of the design. The bar is no longer rigid and is susceptable to bending from the combined action of the weight and the actuator force. 
