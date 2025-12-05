@@ -87,7 +87,9 @@ To optimize, I considered the product of the max height reached by the point E (
 ###### Results
 Following the optimization using the code above, interesting results were found. The general principle was for every X value from the minimum X value needed considering the minimum length of the actuator to the max value of X (Pin C at E) the moment about B caused by the actuator and the maximum height were found. These values were then multiplied together, and the X value that had the largest product (optimization factor) was selected to be the ideal value of X. The graph below displays the results, and it was found having Pin C at point E (X=150cm) was the most ideal value. 
 
+
 ![Shaded rendering of earlier version]({{ "/assets/images/optimization_results.png" | relative_url }}){: .inline-image-r style="width: 600px"}
+
 
 This makes sense for a few reasons. Firstly, the magnitude of the moment caused by the actuator force was up to 5,000 KN(cm) while the maximum height value only reached roughly 45cm (Note: less than the 50cm requirement). It then makes sense that the ideal X value is simply the ideal value for maximizing the moment (longest moment arm-- X=150cm). Upon further investigation, the maximum height only changed by roughly 0.5 cm between the minimum and maximum X value. It then makes sense to maximize the moment, and therefore lifting force, due to such a small change in max height. A relatively small change in X compared to the length of bar BCE causes theta max to not change significantly.
 
@@ -96,7 +98,9 @@ Changes to the definition of the optimization factor could be valuable in explor
 ##### Final Design
 With this in mind, the final design will have the actuator attach to BCE at its end point (the location where the load is concentrated). The design is shown below:
 
+
 ![Shaded rendering of earlier version]({{ "/assets/images/final_design_v1.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
+
 
 ##### Non-Rigid Static Analysis
 Now, analysis will be completed to better understand the limitations of the design. The bar is no longer rigid and is susceptable to bending from the combined action of the weight and the actuator force. 
