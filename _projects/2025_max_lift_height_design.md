@@ -99,17 +99,29 @@ With this in mind, the final design will have the actuator attach to BCE at its 
 
 ![Shaded rendering of earlier version]({{ "/assets/images/final_design_v1.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 400px;"}
 
+
 ##### Non-Rigid Static Analysis
 Now, analysis will be completed to better understand the limitations of the design. The bar is no longer rigid and is susceptable to bending from the combined action of the weight and the actuator force. 
 
 ###### Assumptions
-Bar is non-rigid, weight is still behaving as a concentrated load, considering only components of the force transverse to the beam, beam is slender, plane sections remain plane, and small deformations.
+Bar is non-rigid, weight is still behaving as a concentrated load, considering only components of the force transverse to the beam, beam is slender, plane sections remain plane, maximum weight is equal to the maximum force output of the actuator, and small deformations.
 
 ###### Finding Maximum Deflection
-XXX
+To find the maximum deflection, notice that the two forces (from the actuator and applied load from the weight) act at the same location (the end of the beam) albeit in different directions. Because only the transverse components of these forces are being considered, the maximum net load will occur when the actuator is not extended. First, will calculate the relevant angles as defined in the previous sections and create a free body diagram: 
+
+$$
+\varalpha = arccos(\frac{(150cm)^2 + (7.62cm)^2 - (150cm)^2}{2(150cm)(7.62cm)}) = 88.54^\circ
+
+\varbeta = 2\varalpha - 90^\circ = 2(88.54^\circ) - 90^\circ = 87.09^\circ
+$$
+
+These are valid because the design creates an isoceles triangle as two sides are equal to 150 cm. 
 
 ###### Choosing Beam Design (Cross Section, Material)
 XXX
 
+###### Sources of Error
+assuming weight. in reality probably a little higher due to angles, not huge difference so gives good idea.
+
 ###### Final Design v2
-XXX
+shows another advantage of having at end. actuator force directly cancels a lot of the weight, reducing bending as opposed to attaching at middle
