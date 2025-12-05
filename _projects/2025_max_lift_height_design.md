@@ -110,9 +110,11 @@ Bar is non-rigid, weight is still behaving as a concentrated load, considering o
 To find the maximum deflection, notice that the two forces (from the actuator and applied load from the weight) act at the same location (the end of the beam) albeit in different directions. Because only the transverse components of these forces are being considered, the maximum net load will occur when the actuator is not extended. First, will calculate the relevant angles as defined in the previous sections and create a free body diagram: 
 
 $$
-\varalpha = arccos(\frac{(150cm)^2 + (7.62cm)^2 - (150cm)^2}{2(150cm)(7.62cm)}) = 88.54^\circ
+\alpha = \arccos(\frac{(150cm)^2 + (7.62cm)^2 - (150cm)^2}{2(150cm)(7.62cm)}) = 88.54^\circ
+$$
 
-\varbeta = 2\varalpha - 90^\circ = 2(88.54^\circ) - 90^\circ = 87.09^\circ
+$$
+\beta = 2\alpha - 90^\circ = 2(88.54^\circ) - 90^\circ = 87.09^\circ
 $$
 
 These are valid because the design creates an isoceles triangle as two sides are equal to 150 cm. 
