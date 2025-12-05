@@ -24,7 +24,7 @@ I first chose the ideal linear actuator for the task. From the catalog, the IMA3
 
 I chose to have the rigid bar labeled BCE to have a length of 150cm exactly, to extend the length of the workspace when horizontal to allow the weight (attached at point E) to be lifted as high as possible when the actuator (AC) is activated. With this, the general design of the actuator was complete, and this left the most critical design choice: the location of Pin C (where the actuator attaches to the rigid bar). As I will show below, the distance from Pin B to Pin C, labeled X, will affect both the max weight and the max height in opposing ways (they are in contradiction with each). I then will display the optimization process I used with Python to determine the optimum X value. 
 
-![Shaded rendering of earlier version]({{ "/assets/images/FBD_of_rigid_arm.png" | relative_url }}){: .inline-image-r style="width: 300px"}
+![Shaded rendering of earlier version]({{ "/assets/images/FBD_of_rigid_arm.png" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
 
 ###### Computational Analysis
 Considering the Free Body Diagram for the rigid bar, there are reaction forces acting at pin B, as well as the force from the actuator acting at Pin C and the weight acting downwards at Pin E (both of which cause moments about B). Considering sum of moments about B, a larger moment arm gives the force from the actuator a larger applied moment at B, and could therefore lift more weight. However, when giving the actuator a larger moment arm (larger X), the max angle between BCE and the horizontal when the actuator is fully extended decreases, and hence the weight is not lifted as high. Therefore, these goals are in contradiction with each other. Hence, a balance must be struck between the two. 
@@ -84,23 +84,20 @@ To optimize, I considered the product of the max height reached by the point E (
     print(ideal_x)
 ```
 
+
 ###### Results
 Following the optimization using the code above, interesting results were found. The general principle was for every X value from the minimum X value needed considering the minimum length of the actuator to the max value of X (Pin C at E) the moment about B caused by the actuator and the maximum height were found. These values were then multiplied together, and the X value that had the largest product (optimization factor) was selected to be the ideal value of X. The graph below displays the results, and it was found having Pin C at point E (X=150cm) was the most ideal value. 
 
-
-![Shaded rendering of earlier version]({{ "/assets/images/optimization_results.png" | relative_url }}){: .inline-image-r style="width: 600px"}
-
+![Shaded rendering of earlier version]({{ "/assets/images/optimization_results.png" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
 
 This makes sense for a few reasons. Firstly, the magnitude of the moment caused by the actuator force was up to 5,000 KN(cm) while the maximum height value only reached roughly 45cm (Note: less than the 50cm requirement). It then makes sense that the ideal X value is simply the ideal value for maximizing the moment (longest moment arm-- X=150cm). Upon further investigation, the maximum height only changed by roughly 0.5 cm between the minimum and maximum X value. It then makes sense to maximize the moment, and therefore lifting force, due to such a small change in max height. A relatively small change in X compared to the length of bar BCE causes theta max to not change significantly.
 
 Changes to the definition of the optimization factor could be valuable in exploring how to optimize the design in various ways. For example, I experimented by making the formula for the optimization factor as the moment caused by the actuator force times maximum height cubed. This resulted in a smaller ideal X value as the maximum height carried larger weight. This comes down to design choice and what matters more in your design, but I feel that setting X = 150cm is ideal for this task.
 
-##### Final Design
+###### Final Design v1
 With this in mind, the final design will have the actuator attach to BCE at its end point (the location where the load is concentrated). The design is shown below:
 
-
-![Shaded rendering of earlier version]({{ "/assets/images/final_design_v1.jpg" | relative_url }}){: .inline-image-r style="width: 600px"}
-
+![Shaded rendering of earlier version]({{ "/assets/images/final_design_v1.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
 
 ##### Non-Rigid Static Analysis
 Now, analysis will be completed to better understand the limitations of the design. The bar is no longer rigid and is susceptable to bending from the combined action of the weight and the actuator force. 
@@ -112,6 +109,7 @@ Bar is non-rigid, weight is still behaving as a concentrated load, considering o
 XXX
 
 ###### Choosing Beam Design (Cross Section, Material)
+XXX
 
-
-##### Final Design v2
+###### Final Design v2
+XXX
