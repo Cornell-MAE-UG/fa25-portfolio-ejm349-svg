@@ -124,7 +124,7 @@ Note: These are valid because the design creates an isoceles triangle as two sid
 Now, find the transverse force on the bar (component of weight that is transverse): 
 
 $$
-W_{\max,t} = W_{\max}\sin\beta = 36\,\text{kN}\,\sin(87.09^\circ) = 35.95KN
+W_{\max,t} = W_{\max}\sin\beta = 36\,\text{kN}\,\sin(87.09^\circ) = 35.95\,\text{kN}
 $$
 
 This beam behaves as a pinned-pinned beam experiencing a transverse force at a point along its length. This precise scenario is solved in the course textbook appendix, from which it can be found that (after substituting specific values from this problem):
