@@ -151,7 +151,7 @@ $$
 y_{\text{d, max}} = -\frac{35.95\times{10^3}N\left(\frac{0.20m}{2}\right)\left[\left(1.50\,\text{m}\right)^2 - \left(\frac{0.20m}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, (200\times{10^9}Pa) (\frac{4}{3}cm^4\times{(\frac{0.01m}{1cm})^4}) \left(1.50\,\text{m}\right)} = -0.193m
 $$
 
-To summarize, I assumed a square cross-sectional with side length of 2cm, that the bar is made of structural steel, that the weight is equivalent to the maximum actuator force behaving as a constant distributed load, and that said load acted over a length of 20cm and only the transverse component would be considered. From this, and the given equation in the textbook for maximum deflection in this case, it was found that the bar bends at most 0.193m downwards.
+To summarize, I assumed a square cross-section with side length of 2cm, that the bar is made of structural steel, that the weight is equivalent to the maximum actuator force behaving as a constant distributed load, and that said load acted over a length of 20cm and only the transverse component would be considered. From this, and the given equation in the textbook for maximum deflection in this case, it was found that the bar bends at most 0.193m downwards.
 
 ###### Choosing Beam Design (Cross Section, Material)
 Oftentimes when designing beams such as this, parameters will be given for how far the beam should be allowed to bend. From the problem statement, the bar must bend no more than 2% of its length. Or equivalently,
