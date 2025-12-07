@@ -175,7 +175,11 @@ $$
 Substituting the correct values,
 
 $$
-I_{\text{required}} = -\frac{35.95\times{10^3}N\left(\frac{0.20m}{2}\right)\left[\left(1.50\,\text{m}\right)^2 - \left(\frac{0.20m}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, (70\times{10^9}Pa) (-0.03m) \left(1.50\,\text{m}\right)} = 2.45\times10^{-7}m^4 = 24.54\,\text{cm}^4
+I_{\text{required}} = -\frac{35.95\times{10^3}N\left(\frac{0.20m}{2}\right)\left[\left(1.50\,\text{m}\right)^2 - \left(\frac{0.20m}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, (70\times{10^9}Pa) (-0.03m) \left(1.50\,\text{m}\right)}
+$$
+
+$$
+I_{\text{required}} = 2.45\times10^{-7}m^4 = 24.54\,\text{cm}^4
 $$
 
 Using the assumption of a square cross-sectional shape still, it is known that,
