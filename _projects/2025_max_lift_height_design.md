@@ -169,7 +169,7 @@ y_{\text{d, max}} = -\frac{W_{\max,t}\left(\frac{L}{2}\right)\left[\left(150\,\t
 $$
 
 $$
-\implies I_{\text{required}} = -\frac{W_{\max,t}\left(\frac{L}{2}\right)\left[\left(150\,\text{cm}\right)^2 - \left(\frac{L}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, E (y_{\text{d, max}}) \left(150\,\text{cm}\right)}
+\implies I_{\text{required}} = -\frac{W_{\max,t}\left(\frac{L}{2}\right)\left[\left(150\,\text{cm}\right)^2 - \left(\frac{L}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, E (y_{\text{d, allowable}}) \left(150\,\text{cm}\right)}
 $$
 
 Substituting the correct values,
