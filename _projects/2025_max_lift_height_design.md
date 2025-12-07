@@ -135,7 +135,7 @@ $$
 
 Thus, the maximum bending of the beam is related to the length L over which the distributed load is applied, or more practically, how large the box or container this system is designed to lift is-- this conceptually makes sense that there is this dependence. This equation holds as long as $\frac{L}{2} < 75cm$.
 
-Notice that the equation also depends on two other unknowns: the Young's Modulus (E) and moment of inertia (I). These are simply material properties, and thus depend on the cross section and material of the beam chosen. For the sake of calculation, I will first assume that the bar is made of Structural (ASTM-A36) steel and has a square cross sectional area with side length 2cm. From this, the E value can be found in the textbook, and the moment of inertia can be found through the equation $I_{\text{square}} = \frac{1}{12}wh^3$, where w is the width and h is the height. Thus,
+Notice that the equation also depends on two other unknowns: the Young's Modulus (E) and moment of inertia ($I$). These are simply properties, and thus depend on the cross section and material of the beam chosen. For the sake of calculation, I will first assume that the bar is made of Structural (ASTM-A36) steel and has a square cross sectional area with side length 2cm. From this, the E value can be found in the textbook, and the moment of inertia can be found through the equation $I_{\text{square}} = \frac{1}{12}wh^3$, where w is the width and h is the height. Thus,
 
 $$
 I_{\text{square}} = \frac{1}{12}(2cm)(2cm)^3 = \frac{4}{3}cm^4
@@ -145,7 +145,7 @@ $$
 E_{\text{steel}} = 200GPa
 $$
 
-Now, for the last assumption, will assume that $L = 20cm$, a realistic value for the width of a container carrying some weight. Then, substituting these values, the max deflection gives: 
+Now, for the last assumption, I will assume that $L = 20cm$, a realistic value for the width of a container carrying some weight. Then, substituting these values, the max deflection gives: 
 
 $$
 y_{\text{d, max}} = -\frac{35.95\times{10^3}N\left(\frac{0.20m}{2}\right)\left[\left(1.50\,\text{m}\right)^2 - \left(\frac{0.20m}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, (200\times{10^9}Pa) (\frac{4}{3}cm^4\times{(\frac{0.01m}{1cm})^4}) \left(1.50\,\text{m}\right)} = -0.193m
@@ -162,7 +162,7 @@ $$
 
 This is clearly smaller than the previously calculated max deflection, thus the bar must be strengthened. Decreasing the L value could decrease the maximum deflection; however, assuming constant L, want to find a mass-efficient material and cross sectional shape that could meet this criteria. 
 
-There are two possible approaches that come to mind when trying to solve this problem. First, choose a material (E) value and find a suitable cross sectional shape that could support that load. Second, choose a cross sectional shape and find a suitable E value, and thereby material. Upon looking at material properties in the textbook appendix, aluminum had a much smaller weight per unit length than any of the metals typically used to support loads of this caliber; thus, I will choose option 1, in which I choose a material ($E_{\text{al}} = 70GPa$) and then find a suitable I value, and thus cross-sectional shape from assuming the cross-sectional shape is still a square.
+There are two possible approaches that come to mind when trying to solve this problem. First, choose a material (E value) and find a suitable cross sectional shape that could support that load. Second, choose a cross sectional shape and find a suitable E value, and thereby material. Upon looking at material properties in the textbook appendix, aluminum had a much smaller weight per unit length than any of the metals typically used to support loads of this caliber; thus, I will choose option 1, in which I choose a material ($E_{\text{al}} = 70GPa$) and then find a suitable $I$ value, and thus cross-sectional shape from assuming the cross-sectional shape is still a square and I need to find the side length.
 
 $$
 y_{\text{d, max}} = -\frac{W_{\max,t}\left(\frac{L}{2}\right)\left[\left(150\,\text{cm}\right)^2 - \left(\frac{L}{2}\right)^2\right]^{3/2}}{9\sqrt{3}\, E I \left(150\,\text{cm}\right)}
@@ -202,4 +202,4 @@ From the analysis above, the final design of the mechanism that can lift a maxim
 ###### Sources of Error & Other Approaches
 Possible sources of error mainly lie in the assumptions made. Firstly, it was assumed the maximum weight is equal to the maximum force of the actuator. This is likely not entirely accurate as only a component of the weight is along the line of action of the actuator force. Secondly, it was assumed the weight is evenly distributed over its length-- this is not necessarily the case and could decrease or increase bending depending on the location of the centroid.
 
-It was also assumed that the cross-section will be square. I mainly chose this to have a better comparison with the initial design now that there was a new material (aluminum) and a constraint on max bending. Considering the weight per unit length of aluminum being roughly one third of steel's, and that the cross-sectional side length doubled but the max bending decreased by roughly 84%, this seems to be a very mass-efficient solution. Instead, I could have continued to assume steel and calculate the needed I value, however, when I did this, the needed I value was far smaller than the given I values for various steel beam cross-sectional shapes in the textbook appendix. This would imply more material and weight is being used, so I pivoted to the lighter aluminum material as shown.
+It was also assumed that the cross-section will be square. I mainly chose this to have a better comparison with the initial design now that there was a new material (aluminum) and a constraint on max bending. Considering the weight per unit length of aluminum being roughly one third of steel's, and that the cross-sectional side length doubled but the max bending decreased by roughly 84%, this seems to be a very mass-efficient solution. Instead, I could have continued to assume steel and calculate the needed $I$ value, however, when I did this, the needed $I$ value was far smaller than the given $I$ values for various steel beam cross-sectional shapes in the textbook appendix. This would imply more material and weight is being used, so I pivoted to the lighter aluminum material as shown.
