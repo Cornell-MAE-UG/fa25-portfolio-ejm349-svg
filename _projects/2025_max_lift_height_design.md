@@ -193,7 +193,7 @@ Therefore, the final (v2) design of the bar is made of aluminum with a square cr
 ###### Final Design v2
 From the analysis above, the final design of the mechanism that can lift a maximum amount of weight to a maximum height without bending more than 2% of its total length and being mass-efficient is as follows:
 
-![Shaded rendering of earlier version]({{ "/assets/images/final_design_v2.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 400px;"}
+![Shaded rendering of earlier version]({{ "/assets/images/final_design_v2.jpg" | relative_url }}){:  style="display:block; margin:0 auto; width: 500px;"}
 
 ###### Sources of Error & Other Approaches
 Possible sources of error mainly lie in the assumptions made. Firstly, it was assumed the maximum weight is equal to the maximum force of the actuator. This is likely not entirely accurate as only a component of the weight is along the line of action of the actuator force. Secondly, it was assumed the weight is evenly distributed over its length-- this is not necessarily the case and could decrease or increase bending depending on the location of the centroid.
