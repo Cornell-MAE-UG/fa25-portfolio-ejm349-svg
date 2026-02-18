@@ -2,7 +2,7 @@
 layout: project
 title: 2250 Proposal
 description: Open Design Project Planning
-technologies: X
+technologies: PANDOC
 image: /assets/images/2250_sc2.png
 ---
 
