@@ -1,3 +1,12 @@
+---
+layout: project
+title: MAE 2250 Client Outreach & Proposal
+description: Open Design Project Planning
+technologies: X
+image: 
+---
+
+
 <!--
 Compile to PDF (example):
   pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
