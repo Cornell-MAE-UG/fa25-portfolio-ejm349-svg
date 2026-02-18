@@ -3,7 +3,7 @@ layout: project
 title: 2250 Proposal
 description: Open Design Project Planning
 technologies: X
-image: /assets/images/2250_sc.png
+image: /assets/images/2250_sc2.png
 ---
 
 
