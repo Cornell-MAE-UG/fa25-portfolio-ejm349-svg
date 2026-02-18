@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE 2250 Client Outreach & Proposal
+title: 2250 Proposal
 description: Open Design Project Planning
 technologies: X
 image: /assets/images/2250_sc.png
