@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [ejm349@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** (518) 955-1935
+**Email:** [ejm349@cornell.edu](mailto:ejm349@cornell.edu) | **Phone:** (518) 955-1935
 
 ---
 
@@ -87,7 +87,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 
 #### Extracurricular Activities
 - Member, American Society of Mechanical Engineers  
-- Captain, Intramural Soccer | Doubles Pickleball League  
+- Intramural Soccer, Doubles Pickleball League  
 - Hobbies: 3D Printing/Design, Mountain Biking, Skiing, Pickleball, Piano  
 
 ---
