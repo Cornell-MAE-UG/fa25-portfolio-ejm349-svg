@@ -64,7 +64,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 ---
 
 #### Leadership Experience
-- **Physics 1112 Learning Assistant – Undergraduate TA**  
+- **Physics 1112 / 2213 Learning Assistant – Undergraduate TA**  
   *Cornell University | Aug 2025 – Present*  
   - Facilitated collaborative problem-solving in physics discussion sections  
   - Strengthened communication and teaching through weekly pedagogy seminars  
