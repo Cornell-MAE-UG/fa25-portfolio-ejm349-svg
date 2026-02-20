@@ -174,9 +174,3 @@ Below is a video of the operation of the heat exchanger used in counter flow:
   <source src="{{ '/assets/images/heat_exchanger_video.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
-
-
-
-
-![Shaded rendering of earlier version]({{ "/assets/images/design1.PNG" | relative_url }}) {: style="display:block; margin-left:auto; margin-right:auto; width:300px;" }
