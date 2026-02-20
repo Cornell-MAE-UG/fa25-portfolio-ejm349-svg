@@ -1,12 +1,14 @@
 ---
 layout: project
-title: 2250 Proposal
+title: ODP3: Client Outline
 description: Open Design Project Planning
 technologies: PanDoc
 image: /assets/images/2250_sc2.png
 ---
 
 ### A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
+
+
 
 **Team:** BuzzKill
 
