@@ -73,6 +73,4 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 
 <br>
 
-![Shaded rendering of earlier version]({{ "/assets/images/design1.png" | relative_url }})
-
-{: style="display:block; margin-left:auto; margin-right:auto; width:300px;" }
+![Shaded rendering of earlier version]({{ "/assets/images/design1.PNG" | relative_url }}) {: style="display:block; margin-left:auto; margin-right:auto; width:300px;" }
