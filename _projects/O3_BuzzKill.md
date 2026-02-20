@@ -86,4 +86,4 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 
 ### Figure
 
-![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment>](figures<design1>.png)
+![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment](/figures/design1.png)
