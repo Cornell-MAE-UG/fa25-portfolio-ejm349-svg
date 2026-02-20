@@ -4,6 +4,8 @@ geometry: margin=1in
 papersize: letter
 pagestyle: empty
 header-includes:
+  - \usepackage{setspace}
+  - \singlespacing
   - \pagenumbering{gobble}
 ---
 
@@ -72,4 +74,4 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 
 ### Figure
 
-![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment](../assets/images/design1.png)
+![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment](\Git\fa25-portfolio-ejm349-svg\assets\images/design1.PNG)
