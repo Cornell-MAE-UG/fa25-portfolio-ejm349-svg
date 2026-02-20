@@ -6,15 +6,6 @@ technologies: PanDoc
 image: /assets/images/2250_sc2.png
 ---
 
----
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
----
-
 ## A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
 
 **Team:** BuzzKill
@@ -66,9 +57,6 @@ By the end of the semester, we will have a tested prototype showing proof of con
 3. **Are eggs often laid in places throughout vineyards that can’t be reached by hand?**  
    *Decision affected:* Impacts whether or not the tool is extendable/flexible to enable greater reach
 
-
-\newpage
-
 ### References
 
 1. J Keller, J Rost, K Hoover, J Urban, H Leach, M Porras, B Walsh, M Bosold, D Calvin. 
@@ -80,4 +68,4 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 
 ### Figure
 
-![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment](../assets/images/design1.png)
+![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment]({{ "/assets/images/design1.png" | relative_url }}){: style="display:block; margin:0 auto; width: 300px;"}
