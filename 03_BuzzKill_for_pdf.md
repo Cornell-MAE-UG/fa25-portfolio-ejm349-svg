@@ -4,9 +4,11 @@ geometry: margin=1in
 papersize: letter
 pagestyle: empty
 header-includes:
-  - \usepackage{setspace}
-  - \singlespacing
-  - \pagenumbering{gobble}
+   - \usepackage{setspace}
+   - \singlespacing
+   - \setlength{\parskip}{0pt}
+   - \setlength{\parindent}{0pt}
+   - \pagenumbering{gobble}
 ---
 
 ## A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
@@ -27,32 +29,32 @@ Vineyards reduce SLF populations at the source by targeting egg masses, which pr
 
 #### Jaw-Bucket Egg Removal and Containment System
 
-**What it is:** 
+**What It Is:** 
 
 Jaws scrape off and collect egg masses. An internal compartment stores eggs for later disposal.
 
-**How it would be used:** 
+**How it Would be Used:** 
 
 - Uses a trigger on a handle to create a high mechanical advantage to close the jaws
 - Jaws scrape against the surface, removing and collecting the egg masses
 - Uses a sliding door container to allow egg masses to fall in but not back out onto the ground
 
-**Why it’s better than the status quo:**
+**Why it’s Better Than the Status Quo:**
 
 - More efficient and comfortable than scraping with a card, allows collection of many egg masses
 - Doesn’t use chemicals or toxic fluids, doesn’t interfere with farm equipment or operations
 
-**End-of-semester proof-of-concept:**
+**End-of-Semester Proof-of-Concept:**
 
 By the end of the semester, we will have a tested prototype showing proof of concept that efficiently removes and collects simulated egg masses off various surfaces and requires little force input to operate.
 
-### Key risks / unknowns
+### Key Risks / Unknowns
 
 - Operation of this device can be labor and time intensive for farmers with tight margins — if too slow, vineyards won’t adopt it; test by finding time per egg mass.
 - Damage to grapevines or grapes when the egg masses are scraped off — if it damages vines, they may be unusable; inspect after repeated use to test.
 - Interference with growing regulations by introducing a new device into the vineyard — if it violates regulations, it can’t be used; test by checking growing standards.
 
-### Questions for the client
+### Questions for the Client
 1. **Do egg masses vary significantly in size, thickness, or shape throughout the season?**  
    *Decision affected:* Jaw opening width, bucket size, and shape of teeth on the jaw
 2. **What surfaces are the most difficult to remove the egg masses from?**  
