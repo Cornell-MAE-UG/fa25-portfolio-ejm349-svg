@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ODP3: Client Outline
+title: ODP3 Client Outline
 description: Open Design Project Planning
 technologies: PanDoc
 image: /assets/images/2250_sc2.png
@@ -70,4 +70,6 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 
 #### Figure
 
-![Shaded rendering of earlier version]({{ "/assets/images/design1.png" | relative_url }}){:  style="display:block; margin:0 auto; width: 300px;"}
+
+![Shaded rendering of earlier version]({{ "/assets/images/design1.png" | relative_url }})
+{: style="display:block; margin:0 auto; width: 300px;"}
