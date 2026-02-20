@@ -11,7 +11,7 @@ header-includes:
 
 ## A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
 
-**Team:** BuzzKill
+**Team:** BuzzKill (Ethan Moger, Bennett Wehibe, Adair Bluman, Trevor Crouse, Allen Liu)
 
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
@@ -68,4 +68,4 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 
 ### Figure
 
-![Figure 1: Mechanical Jaw Bucket Design with Internal Compartment](\Git\fa25-portfolio-ejm349-svg\assets\images/design1.PNG)
+![Mechanical Jaw Bucket Design with Internal Compartment](\Git\fa25-portfolio-ejm349-svg\assets\images/design1.PNG)
