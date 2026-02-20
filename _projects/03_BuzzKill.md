@@ -68,6 +68,7 @@ By the end of the semester, we will have a tested prototype showing proof of con
 Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America, Environmental Entomology, Volume 48, Issue 6, December 2019, Pages 1452–1468, https://doi.org/10.1093/ee/nvz123
 
 
+
 #### Figure
 
 <br>
