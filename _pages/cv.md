@@ -20,8 +20,8 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 #### Education
 - **Cornell University, College of Engineering**  
   *Bachelor of Science in Mechanical Engineering*  
-  GPA: 4.225 | Aug 2024 – May 2028  
-  Relevant Coursework: CS 1112, ENGRI 1170, MATH 1910/1920, PHYS 1112/1110  
+  GPA: 4.251 | Aug 2024 – May 2028  
+  Relevant Coursework: Physics I/II, Thermodynamics, Differential Eqs, Statics, Calculus I/II/III, Intro to Computing (Python)  
 
 - **Queensbury Senior High School**  
   *NYS Advanced Regents Diploma with Honors, Seal of Distinction in Math & Science*  
@@ -70,7 +70,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
   - Strengthened communication and teaching through weekly pedagogy seminars  
   - Supported inclusive instruction and faculty feedback for course improvement  
 
-- **Adirondack Solar Alliance – Co-Founder & Director of Web-Design/Technology**  
+- **Adirondack Solar Alliance – Co-Founder**  
   *Queensbury, NY | Dec 2021 – Present*  
   - Co-founded nonprofit raising $100,000+ to install solar panels in Adjuntas, Puerto Rico  
   - Designed donation page, managed tech for fundraising, and secured sponsorships  
