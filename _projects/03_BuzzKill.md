@@ -8,7 +8,7 @@ image: /assets/images/2250_sc2.png
 
 ### A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
 
-[Download Our Pitch]({{ "/Git/fa25-portfolio-ejm349-svg/03_BuzzKill.pdf" | relative_url }}) in PDF format.
+[Download Our Pitch]({{ "/assets/03_BuzzKill.pdf" | relative_url }}) in PDF format.
 
 **Team:** BuzzKill
 
