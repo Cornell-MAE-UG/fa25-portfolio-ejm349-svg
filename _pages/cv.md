@@ -31,8 +31,8 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 ---
 
 #### Skills
-- **Software:** OnShape, Ansys Maxwell, SolidWorks (Briefly)  
-- **Programming:** Python, MATLAB (Briefly) 
+- **Software:** OnShape, Ansys Maxwell, Fusion 360, SolidWorks (Briefly)  
+- **Programming:** Python, MATLAB 
 - **Tools:** Red Apron Trained, 3D Printing, Laser Cutting, CNC Milling Machine, General Hand Tools
 - **Other:** Google Suite, Microsoft Office, Documentation, Collaboration, Problem Solving, Patent Application  
 
