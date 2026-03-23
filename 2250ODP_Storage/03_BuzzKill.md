@@ -6,7 +6,7 @@ description: Open Design Project Planning
 technologies: PanDoc
 image: /assets/images/2250_sc2.png
 permalink: /2250ODP_Storage/03_BuzzKill/
-show_ODP: true
+show_ODP: false
 ---
 
 ### A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
