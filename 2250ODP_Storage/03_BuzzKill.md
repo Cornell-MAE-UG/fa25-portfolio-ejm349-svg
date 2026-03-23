@@ -6,6 +6,7 @@ description: Open Design Project Planning
 technologies: PanDoc
 image: /assets/images/2250_sc2.png
 permalink: /2250ODP_Storage/03_BuzzKill/
+show_ODP: true
 ---
 
 ### A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
@@ -77,8 +78,3 @@ Life History of the Spotted Lanternfly (Hemiptera: Fulgoridae) in North America,
 <p style="text-align:center; font-style:italic; margin-top:4px;">
 Figure 1: Mechanical Jaw Bucket Design with Internal Compartment
 </p>
-
-
-<a href="{{ '/projects/2026_MAE2250_ODP/' | relative_url }}" class="back-arrow">
-    <i class="bi bi-arrow-left-circle-fill"></i> Back to MAE 2250 ODP
-</a>
