@@ -5,6 +5,7 @@ permalink: /projects/MAE2250ODP/03_BuzzKill/
 description: Open Design Project Planning
 technologies: PanDoc
 image: /assets/images/2250_sc2.png
+permalink: /2250ODP_Storage/03_BuzzKill/
 ---
 
 ### A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
