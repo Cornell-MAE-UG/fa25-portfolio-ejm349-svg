@@ -2,7 +2,7 @@
 layout: default
 title: MAE2250 Open Design Project
 ---
-<h1>MAE2250 ODP</h1>
+<h1>MAE2250 Open Design Project</h1>
 
 <ul>
   <li><a href="{{ '/projects/MAE2250ODP/03_BuzzKill/' | relative_url }}">Client Pitch</a></li>
