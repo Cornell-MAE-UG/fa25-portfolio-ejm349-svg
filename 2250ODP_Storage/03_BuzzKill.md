@@ -1,7 +1,6 @@
 ---
 layout: project
 title: ODP3 Client Outline & Pitch
-permalink: /projects/MAE2250ODP/03_BuzzKill/
 description: Open Design Project Planning
 technologies: PanDoc
 image: /assets/images/2250_sc2.png
