@@ -2,7 +2,7 @@
 layout: project
 title: ODP5 Functional Prototype
 description: Open Design Project Prototyping
-technologies: Fusion 360, 3D Printing, Finishing
+technologies: Fusion 360, 3D Printing
 image: /assets/images/2250_sc2.png
 permalink: /2250ODP_Storage/05_BuzzKill/
 show_ODP: false
@@ -36,10 +36,12 @@ Figure 2: Actual Prototype in Operating Position
 Our project is a prototype jaw device designed to remove spotted lanternfly egg masses from a variety of surfaces efficiently and safely. The goal is to improve egg mass removal efficiency and collection ability while being easy to operate. The jaw will be actuated by a string connected to the trigger. When squeezed, the trigger will open the jaw, extending springs attached to the jaw that are trying to return the jaw back to closed. The handle is then released, causing the jaw to snap shut quickly, intended to remove the egg mass and collect it in the bucket. See below for a video showing a demonstration of the device with Play-Doh.
 
 
+
 <video width="560" height="315" controls muted>
   <source src="{{ '/assets/images/prototype_video.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 ### What was Tested
