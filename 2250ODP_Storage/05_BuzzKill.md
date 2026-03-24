@@ -10,7 +10,7 @@ show_ODP: false
 
 ### A Mechanical Approach to Quantifiable Spotted Lanternfly Egg Mass Control
 
-[Download Our Write-Up]({{ "/assets/05_BuzzKill.pdf" | relative_url }}) in PDF format.
+[Download Our Write-Up]({{ "/assets/05_BuzzKill.pdf" | relative_url }}) in PDF format. Or, see bottom to view without opening.
 
 **Team:** BuzzKill
 
@@ -118,6 +118,14 @@ The handle and trigger setup met the ergonomic target, with a RULA score of 3.9,
 The jaw opening test showed that the mechanism can open wide enough in theory, but the trigger does not currently pull it far enough in practice. This limits its ability to reliably capture egg masses. The motion needs to be amplified so a normal hand movement can fully actuate the jaw.
 
 Overall, the prototype validates the design direction, but key mechanical issues remain. The next iteration will focus on improving spring selection, reducing trigger force and jamming, and increasing jaw travel through a better linkage design.
+
+
+##### See our Write-Up Below
+
+<iframe src="{{ '/assets/05_BuzzKill.pdf' | relative_url }}" 
+        width="100%" 
+        height="600px">
+</iframe>
 
 
 ### References
