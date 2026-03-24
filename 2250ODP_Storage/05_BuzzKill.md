@@ -37,7 +37,7 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
 
 
 
-<video width="560" height="315" controls muted>
+<video width="560" height="315">
   <source src="{{ '/assets/images/prototype_video.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
