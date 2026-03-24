@@ -44,6 +44,13 @@ Our project is a prototype jaw device designed to remove spotted lanternfly egg 
 
 
 
+
+<video width="560" height="315" controls autoplay muted>
+  <source src="/assets/images/prototype_video.mp4" type="video/mp4">
+</video>
+
+
+
 ### What was Tested
 We performed a test for each major identified mechanical mechanism on the prototype. The tests and results were as follows:
 
@@ -95,7 +102,7 @@ Figure 3: RULA Calculations
 </p>
 
 
-*Conclusion for Next Iteration:* Our goal for this prototype was to get a RULA score below 5, which means that users will be at a low risk of MSD (musculoskeletal disorders) from our device, based on the below graphic from Ergo-Plus (2). See images below for further information. We calculated our prototype to have a total RULA score of 3.9, indicating low risk and achieving our goal of <5. For our next prototype, we aim to keep our score at or below 3.9. The handle and trigger will also be redesigned because the rail system often jams, causing the trigger to be stuck even for large squeezing forces.
+*Conclusion for Next Iteration:* Our goal for this prototype was to get a RULA score below 5, which means that users will be at a low risk of MSD (musculoskeletal disorders) from our device (2). We calculated our prototype to have a total RULA score of 3.9, indicating low risk and achieving our goal of <5. For our next prototype, we aim to keep our score at or below 3.9. The handle and trigger will also be redesigned because the rail system often jams, causing the trigger to be stuck even for large squeezing forces.
 
 **Test Three:** 
 
@@ -125,7 +132,7 @@ The handle and trigger setup met the ergonomic target, with a RULA score of 3.9,
 
 The jaw opening test showed that the mechanism can open wide enough in theory, but the trigger does not currently pull it far enough in practice. This limits its ability to reliably capture egg masses. The motion needs to be amplified so a normal hand movement can fully actuate the jaw.
 
-Overall, the prototype validates the design direction, but key mechanical issues remain. The next iteration will focus on improving spring selection, reducing trigger force and jamming, and increasing jaw travel through a better linkage design
+Overall, the prototype validates the design direction, but key mechanical issues remain. The next iteration will focus on improving spring selection, reducing trigger force and jamming, and increasing jaw travel through a better linkage design.
 
 
 ### References
