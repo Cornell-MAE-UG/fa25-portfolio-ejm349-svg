@@ -2,11 +2,14 @@
 layout: project
 title: ODP6 Client Report
 description: Open Design Project Final
-technologies: Fusion 360, 3D Printing
+technologies: Fusion 360, 3D Printing, Overleaf
 image: /assets/images/2250_sc2.png
 permalink: /2250ODP_Storage/06_BuzzKill/
 show_ODP: false
 ---
+
+[Download Our Write-Up]({{ "/assets/06_BuzzKill.pdf" | relative_url }}) in PDF format. Or, see bottom to view without opening.
+
 
 ### Context and Problem Statement
 We took on the challenge of controlling the egg masses of spotted lanternflies (SLF) as it was more efficient than targeting SLF in its adult stage. Individual egg masses contain 30-50 eggs, which can be laid on organic or inorganic surfaces, and can still hatch if scraped off the surface (1, 6). Current egg mass control strategies fail to ensure destruction or provide a reliable way to quantify egg mass management. Our challenge was to develop a mechanical system that ensures destruction of egg masses across various surfaces and enables growers to numerically analyze the system’s success. Our main constraints were making the device user-friendly, lightweight, easy to manufacture, and effective against large numbers of egg masses, which we analyzed by creating numerical testing protocols for each design driver. By combating the SLF invasion via egg masses, we are addressing the issue at its source rather than killing individual adult SLFs.
@@ -72,6 +75,13 @@ The clamp force test came from observations that egg masses can be removed with 
 
 Lastly, CuErgo’s RULA XL testing was chosen because the device is used at different heights and body positions, so comfort is vital if growers were to implement the device in their vineyards. The score is derived from standardized calculations in many categories such as the weight and length of the device, percentage of time in different operating positions, and more (5). Other ergonomic considerations included average grip strength across demographics and force required to operate common garden tools (7, 8).
 
+##### See our Write-Up Below
+
+<iframe src="{{ '/assets/06_BuzzKill.pdf' | relative_url }}" 
+        width="100%" 
+        height="600px">
+</iframe>
+
 ### References
 1. J Keller, J Rost, K Hoover, J Urban, H Leach, M Porras, B Walsh, M Bosold, D Calvin. “Dispersion Patterns and Sample Size Estimates for Egg Masses of Spotted Lanternfly (Hemiptera: Fulgoridae),” Environmental Entomology, Volume 49, Issue 6, December 2020, Pages 1462–1472.https://doi.org/10.1093/ee/nvaa107
 
@@ -92,13 +102,13 @@ Lastly, CuErgo’s RULA XL testing was chosen because the device is used at diff
 8. SELVİ Kemal Çağatay, KABAŞ Önder, KARATAŞ Mehmet. “FORCE REQUIREMENTS OF DIFFERENT MANUAL PRUNING SHEARS WHEN CUTTING ABELIA (ABELIA GRANDIFLORA) BRANCHES” 7th TAE 17-20 September 2019, Prague, Czech Republic, https://2019.tae-conference.cz/proceeding/TAE2019-085-Kemal-Ca\%C4\%9Fatay-Selvi.pdf
 
 ### Appendix
-#### Handling Team Member Absences
+##### Handling Team Member Absences
 During Allen’s absence, the team made sure to understand his progress in his role. Before his absence, the team used office hours to work on assembling our final prototype to get ahead before the lab section to ensure we would not fall behind schedule. This strategy let us ensure that no components of our prototype were missing and that we could focus on individual aspects of the prototype without Allen being present.
 
 During Trevor’s absence, our team made sure to meet during the week before our presentation to rewrite and rehearse the elevator pitch with the adjustments made to fill in for his planned part. This let us make sure that our presentation was still able to go smoothly despite his absence. Furthermore, we informed him of the progress we made on the project so that he was up to speed upon his return. This provided a smooth transition.
 
 
-#### Bill of Materials
+##### Bill of Materials
 
 ![Shaded rendering of earlier version]({{ "/assets/images/BOM1.png" | relative_url }}){: style="display:block; margin-left:auto; margin-right:auto; max-width:400px; height:auto;" }
 
