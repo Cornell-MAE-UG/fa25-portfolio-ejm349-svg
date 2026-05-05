@@ -40,7 +40,7 @@ The intended goal of the prototype was to efficiently collect egg masses while b
 
 The culmination of these tests indicated to us that the design is efficient and comfortable for a user, meeting our main two objectives; however, there are areas for improvement. For starters, we recommend that electronic components be implemented to open and close the jaw, pivot the head, and open and close the divider. These adjustments work to eliminate the issue of a loss in force as the springs wear out, and allow the design to be entirely adjusted from operating position– more user friendly. 
 
-The amount spent was $211.27 throughout the entire process, which came out to 39.6% under budget. Of that, only $104.62 was spent on the final prototype, coming out to 29.9% of the budget. That cost further breaks down to be only $29.30 on the 3D printed components, which can be drastically reduced if mass-produced with injection molding (3). 
+The amount spent was \$211.27 throughout the entire process, which came out to 39.6% under budget. Of that, only \$104.62 was spent on the final prototype, coming out to 29.9% of the budget. That cost further breaks down to be only \$29.30 on the 3D printed components, which can be drastically reduced if mass-produced with injection molding (3). 
 
 We conclude that the prototype is worth pursuing further, as we think it has performed successfully as a proof of concept. We recommend the following changes for an industry-grade product: implement electronic motors to allow users to adjust bucket angle, open/close the jaw and divider from the operating position, and use a malleable material for the tooth to allow it to contour to the scraping surface.
 
