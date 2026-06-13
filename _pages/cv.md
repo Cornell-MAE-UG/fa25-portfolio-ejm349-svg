@@ -40,10 +40,11 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 
 #### Projects
 - **Mechanical Design Project: Spotted Lanternfly Control**
+  
   *Ithaca, NY | Jan 2026 - May 2026*
-   - Designed and prototyped a handheld device to remove spotted lanternfly egg masses, with a capacity of 100 egg masses
-   - Developed CAD models in Fusion 360 and fabricated components through 3D printing, machining, and assembly
-   - Conducted testing and analysis, achieving 2.65s egg mass removal time and earning an Outstanding Design nomination
+  - Designed and prototyped a handheld device to remove spotted lanternfly egg masses, with a capacity of 100 egg masses
+  - Developed CAD models in Fusion 360 and fabricated components through 3D printing, machining, and assembly
+  - Conducted testing and analysis, achieving 2.65s egg mass removal time and earning an Outstanding Design nomination
 
 
 - **Glove Dryer Design & Provisional Patent**  
@@ -57,6 +58,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 #### Work Experience
 
 - **X-Ray Optical Systems - Engineering Intern**
+  
   *East Greenbush, NY | May 2026 - Aug 2026*
   - X
   - X
