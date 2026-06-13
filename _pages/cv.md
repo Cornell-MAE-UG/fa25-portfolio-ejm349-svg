@@ -20,8 +20,8 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 #### Education
 - **Cornell University, College of Engineering**  
   *Bachelor of Science in Mechanical Engineering*  
-  GPA: 4.251 | Aug 2024 – May 2028  
-  Relevant Coursework: Physics I/II, Thermodynamics, Differential Eqs, Statics, Calculus I/II/III, Intro to Computing (Python)  
+  GPA: 4.264 | Aug 2024 – May 2028  
+  Relevant Coursework: Dynamics, Statics, Thermodynamics, Differential Eqs, Linear Algebra, Physics I/II, Calculus I/II/III 
 
 - **Queensbury Senior High School**  
   *NYS Advanced Regents Diploma with Honors, Seal of Distinction in Math & Science*  
@@ -31,7 +31,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 ---
 
 #### Skills
-- **Software:** OnShape, Ansys Maxwell, Fusion 360, SolidWorks (Briefly)  
+- **Software:** Ansys Maxwell, SolidWorks, Fusion 360, OnShape
 - **Programming:** Python, MATLAB 
 - **Tools:** Red Apron Trained, 3D Printing, Laser Cutting, CNC Milling Machine, General Hand Tools
 - **Other:** Google Suite, Microsoft Office, Documentation, Collaboration, Problem Solving, Patent Application  
@@ -39,6 +39,13 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 ---
 
 #### Projects
+- **Mechanical Design Project: Spotted Lanternfly Control**
+  *Ithaca, NY | Jan 2026 - May 2026*
+   - Designed and prototyped a handheld device to remove spotted lanternfly egg masses, with a capacity of 100 egg masses
+   - Developed CAD models in Fusion 360 and fabricated components through 3D printing, machining, and assembly
+   - Conducted testing and analysis, achieving 2.65s egg mass removal time and earning an Outstanding Design nomination
+
+
 - **Glove Dryer Design & Provisional Patent**  
   *Queensbury, NY | Sep 2022 – Jun 2023*  
   - Developed a soccer goalie glove-drying system, focusing on material preservation  
@@ -48,11 +55,21 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 ---
 
 #### Work Experience
-- **Cornell University Hyperloop Project Team – Mechanical Team, Magnetics Subteam Member**  
+
+- **X-Ray Optical Systems - Engineering Intern**
+  *East Greenbush, NY | May 2026 - Aug 2026*
+  - X
+  - X
+  - X
+
+
+
+- **Cornell University Hyperloop Project Team – Mechanical Team, Magnetics Subteam Lead**  
   *Ithaca, NY | Sep 2025 – Present*  
-  - Utilize Ansys Maxwell to model, analyze, and create a linear induction motor to propel the levitating pod
-  - Support materials selection and structural analysis to achieve lightweight, durable, and high-speed performance
-  - Collaborate with cross-disciplinary teams to integrate mechanical systems with magnetic and control components
+  - Utilized Ansys Maxwell to design and optimize a linear induction motor, doubling thrust output versus prior designs
+  - Simplified Maxwell simulations by redesigning coil models and utilizing stranded conductors, reducing mesh complexity
+  - Developed manufacturing-ready designs including mounting and cooling hardware while coordinating system integration
+
 
 
 - **Yankee Boating Center – Dock Staff & Marina Rental Coordinator**  
@@ -64,14 +81,14 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 ---
 
 #### Leadership Experience
-- **Physics 1112 / 2213 Learning Assistant – Undergraduate TA**  
-  *Cornell University | Aug 2025 – Present*  
+- **Physics 1112 / Physics 2213 Learning Assistant – Undergraduate TA**  
+  *Cornell University | Aug 2025 – May 2026*  
   - Facilitated collaborative problem-solving in physics discussion sections  
   - Strengthened communication and teaching through weekly pedagogy seminars  
   - Supported inclusive instruction and faculty feedback for course improvement  
 
 - **Adirondack Solar Alliance – Co-Founder**  
-  *Queensbury, NY | Dec 2021 – Present*  
+  *Queensbury, NY | Dec 2021 – May 2026*  
   - Co-founded nonprofit raising $100,000+ to install solar panels in Adjuntas, Puerto Rico  
   - Designed donation page, managed tech for fundraising, and secured sponsorships  
   - Participated in first installation and led presentations to local businesses  
