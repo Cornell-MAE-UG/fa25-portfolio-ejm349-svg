@@ -56,20 +56,26 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
 
 #### Work Experience
 
-- **X-Ray Optical Systems - Engineering Intern**<br/>
-  *East Greenbush, NY | May 2026 - Aug 2026*
-  - X
-  - X
-  - X
+- **Naval Nuclear Laboratory - Mechanical Engineering Intern**<br/>
+  *Niskayuna, NY | May 2027 - Aug 2027*
+  - Summer 2027
+  - Nuclear Reactor Equipment Design Unit
 
 
 
 - **Cornell University Hyperloop Project Team – Mechanical Team, Magnetics Subteam Lead**  
   *Ithaca, NY | Sep 2025 – Present*  
+  - Directed magnetics development and coordinated cross-functional subsystem design, integration, and implementation
   - Utilized Ansys Maxwell to design and optimize a linear induction motor, doubling thrust output versus prior designs
   - Simplified Maxwell simulations by redesigning coil models and utilizing stranded conductors, reducing mesh complexity
-  - Developed manufacturing-ready designs including mounting and cooling hardware while coordinating system integration
+  
 
+
+- **X-Ray Optical Systems - Engineering Intern**<br/>
+  *East Greenbush, NY | May 2026 - Aug 2026*
+  - Redesigned a replacement for an obsolete part in SolidWorks, reducing cost by 18% while meeting all design constraints
+  - Updated SolidWorks/PDM assembly files across 7 product lines, improving inventory management and documentation
+  - Verified regulatory compliance for ~900 parts and subassemblies, organizing records using Epicor and Excel
 
 
 - **Yankee Boating Center – Dock Staff & Marina Rental Coordinator**  
@@ -88,7 +94,7 @@ Aspiring mechanical engineer with a strong foundation in design, analysis, and p
   - Supported inclusive instruction and faculty feedback for course improvement  
 
 - **Adirondack Solar Alliance – Co-Founder**  
-  *Queensbury, NY | Dec 2021 – May 2026*  
+  *Queensbury, NY | Dec 2021 – May 2023*  
   - Co-founded nonprofit raising $100,000+ to install solar panels in Adjuntas, Puerto Rico  
   - Designed donation page, managed tech for fundraising, and secured sponsorships  
   - Participated in first installation and led presentations to local businesses  
