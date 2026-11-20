@@ -3,7 +3,7 @@ layout: project
 title: Fluid-Mechanical Dissection
 description: Explain the fluid-mechanical workings of a fluid machine
 technologies: Shop tools, (more to be added)
-image: /assets/images/whacker.jpg
+image: /assets/images/whacker.png
 ---
 
 ### Introduction
