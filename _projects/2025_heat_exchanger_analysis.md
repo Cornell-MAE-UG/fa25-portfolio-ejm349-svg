@@ -28,10 +28,7 @@ It can be observed that on the left hand side is a red cooler with blue liquid, 
 #### Qualitative Description
 Essentially, the heat exchanger operates in an adiabatic steady state (will assume these conditions when completing computational analysis). The cross section of the heat exchanger (as pictured) forces the fluids to disperse amongst many different pathways. 
 
-<div style="text-align: center;">
-  <img src="{{ '/assets/images/HE_cross_section.jpg' | relative_url }}" style="width: 200px; display: inline-block; margin: 0 15px;" />
-  <img src="{{ '/assets/images/HE_cross_section2.jpg' | relative_url }}" style="width: 200px; display: inline-block; margin: 0 15px;" />
-</div>
+![Shaded rendering of earlier version]({{ "/assets/images/HE_cross_section.jpg" | relative_url }}){: style="display:block; margin:0 auto; width:400px;"}
 
 This increases the surface area of interaction between the hot and cold fluid, facilitating heat transfer between the two. As can be seen, the metal borders between the two fluids are very thin, again helping to facilitate this heat transfer. The rib design and thin ribs contribute to effective conduction, thereby heating the cold fluid by the hot fluid.
 
